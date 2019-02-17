@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<HaulingUrgent.labelShort>Transport</HaulingUrgent.labelShort>
+	<HaulingUrgent.pawnLabel>Priorisierter Transporter</HaulingUrgent.pawnLabel>
+	<HaulingUrgent.gerundLabel>Priorisiert transportieren</HaulingUrgent.gerundLabel>
+	<HaulingUrgent.description>Priorisiertes transportieren. Funkioniert wie generelles Transportieren, allerdings ausschließlich für Objekte, die manuell markiert werden. Benutze &lt;b&gt;Architekt &gt; Anweisungen &gt; Priorisiertes Transportieren&lt;/b&gt; für Selektion von Transport Objekte\nAdditiert durch AllowTool Mod. Kann in &gt; Mod Settings deaktiviert werden.</HaulingUrgent.description>
+	<HaulingUrgent.verb>Prioritätweises transportieren</HaulingUrgent.verb>
+	
+	<FinishingOff.labelShort>Töten</FinishingOff.labelShort>
+	<FinishingOff.pawnLabel>Töten</FinishingOff.pawnLabel>
+	<FinishingOff.gerundLabel>Töten</FinishingOff.gerundLabel>
+	<FinishingOff.description>Kreaturen töten.\nAdditiert durch die AllowTool Mod. Kann in &gt; Mod Settings deaktiviert werden.</FinishingOff.description>
+	<FinishingOff.verb>töten</FinishingOff.verb>
+
+</LanguageData>

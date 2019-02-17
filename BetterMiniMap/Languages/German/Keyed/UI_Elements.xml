@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <BMM_SettingsCategoryLabel>BetterMiniMap</BMM_SettingsCategoryLabel>
+
+    <BMM_TimeUpdateLabel>Aktualisierungrate (Aktualisierung der Anzeige alle X Frames)</BMM_TimeUpdateLabel>
+
+    <BMM_AreasOverlayLabel>Areal</BMM_AreasOverlayLabel>
+    <BMM_BuildingsOverlayLabel>Bauwerk</BMM_BuildingsOverlayLabel>
+    <BMM_MiningOverlayLabel>Bergbau</BMM_MiningOverlayLabel>
+    <BMM_PowerGridOverlayLabel>Energienetz</BMM_PowerGridOverlayLabel>
+    <BMM_TerrainOverlayLabel>Terrain</BMM_TerrainOverlayLabel>
+
+    <!--Nur zur Anpassung bei Einstellungsaktualisierung-->
+    <BMM_FogOverlayLabel>Nebel</BMM_FogOverlayLabel>
+    <BMM_ViewpointOverlayLabel>Ansicht</BMM_ViewpointOverlayLabel>
+
+    <BMM_IndicatorSizeLabel>Indikator-Größe</BMM_IndicatorSizeLabel>
+
+    <BMM_ColonistIndicatorSizeLabel>Kolonist</BMM_ColonistIndicatorSizeLabel>
+    <BMM_AnimalIndicatorSizeLabel>Tier</BMM_AnimalIndicatorSizeLabel>
+    <BMM_EnemyIndicatorSizeLabel>Feind</BMM_EnemyIndicatorSizeLabel>
+    <BMM_TraderIndicatorSizeLabel>Händler</BMM_TraderIndicatorSizeLabel>
+    <BMM_VisitorIndicatorSizeLabel>Gast</BMM_VisitorIndicatorSizeLabel>
+    <BMM_RobotsIndicatorSizeLabel>Roboter</BMM_RobotsIndicatorSizeLabel>
+    <BMM_ShipsIndicatorSizeLabel>Schiff</BMM_ShipsIndicatorSizeLabel>
+    <BMM_WildlifeIndicatorSizeLabel>Fauna</BMM_WildlifeIndicatorSizeLabel>
+    <BMM_TamingIndicatorSizeLabel>markierte Tiere für Zähmung</BMM_TamingIndicatorSizeLabel>
+    <BMM_HostileAnimalIndicatorSizeLabel>Menschenjäger</BMM_HostileAnimalIndicatorSizeLabel>
+    <BMM_HuntingIndicatorSizeLabel>markierte Tiere für Jagd</BMM_HuntingIndicatorSizeLabel>
+
+    <BMM_HomeButtonTooltip>Gebiet Filter. (max 1 aktiv)</BMM_HomeButtonTooltip>
+    <BMM_ConfigButtonTooltip>Oberfläche Filter.</BMM_ConfigButtonTooltip>
+    <BMM_ResizeButtonTooltip>Größeänderung (rechtsklick an/aus). ...mit aktivem Klick auf Karte links rechts ziehen...</BMM_ResizeButtonTooltip>
+    <BMM_DragButtonTooltip>Fixierung Minikarte (rechtsklick an/aus). ...mit aktivem Klick auf Karte Position ändern...</BMM_DragButtonTooltip>
+
+</LanguageData>

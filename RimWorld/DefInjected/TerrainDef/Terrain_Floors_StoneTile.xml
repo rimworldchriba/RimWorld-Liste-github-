@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: granite flagstone -->
+  <FlagstoneGranite.label>Granitplatte</FlagstoneGranite.label>
+  <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+  <FlagstoneGranite.description>
+  
+  Eigenschaften:
+  
+  - Grobschnitt 
+  - nicht rausragend schön
+  - gute Oberfläche für Straßen und Wege
+  - Plattenabriss bringt keine Rohstoffe
+  </FlagstoneGranite.description>
+  
+  <!-- EN: limestone flagstone -->
+  <FlagstoneLimestone.label>Kalksteinplatte</FlagstoneLimestone.label>
+  <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+  <FlagstoneLimestone.description>
+  
+  Eigenschaften:
+  
+  - Grobschnitt 
+  - nicht rausragend schön
+  - gute Oberfläche für Straßen und Wege
+  - Plattenabriss bringt keine Rohstoffe
+  </FlagstoneLimestone.description>
+  
+  <!-- EN: marble flagstone -->
+  <FlagstoneMarble.label>Marmorplatte</FlagstoneMarble.label>
+  <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+  <FlagstoneMarble.description>
+  
+  Eigenschaften:
+  
+  - Grobschnitt 
+  - nicht rausragend schön
+  - gute Oberfläche für Straßen und Wege
+  - Plattenabriss bringt keine Rohstoffe</FlagstoneMarble.description>
+  
+  <!-- EN: sandstone flagstone -->
+  <FlagstoneSandstone.label>Sandsteinplatte</FlagstoneSandstone.label>
+  <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+  <FlagstoneSandstone.description>
+  
+  Eigenschaften:
+  
+  - Grobschnitt 
+  - nicht rausragend schön
+  - gute Oberfläche für Straßen und Wege
+  - Plattenabriss bringt keine Rohstoffe</FlagstoneSandstone.description>
+  
+  <!-- EN: slate flagstone -->
+  <FlagstoneSlate.label>Schieferplatte</FlagstoneSlate.label>
+  <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+  <FlagstoneSlate.description>
+  
+  Eigenschaften:
+  
+  - Grobschnitt 
+  - nicht rausragend schön
+  - gute Oberfläche für Straßen und Wege
+  - Plattenabriss bringt keine Rohstoffe</FlagstoneSlate.description>
+  
+  <!-- EN: granite tile -->
+  <TileGranite.label>Granitfliese</TileGranite.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <TileGranite.description>
+  
+  Eigenschaften:
+  
+  - präziser Schnitt
+  - schöne Oberfläche 
+  - lange Arbeitzeit</TileGranite.description>
+  
+  <!-- EN: limestone tile -->
+  <TileLimestone.label>Kalksteinfliese</TileLimestone.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <TileLimestone.description>
+  
+  Eigenschaften:
+  
+  - präziser Schnitt
+  - schöne Oberfläche 
+  - lange Arbeitzeit</TileLimestone.description>
+  
+  <!-- EN: marble tile -->
+  <TileMarble.label>Marmorfliese</TileMarble.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <TileMarble.description>
+  
+  Eigenschaften:
+  
+  - präziser Schnitt
+  - schöne Oberfläche 
+  - lange Arbeitzeit</TileMarble.description>
+  
+  <!-- EN: sandstone tile -->
+  <TileSandstone.label>Sandsteinfliese</TileSandstone.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <TileSandstone.description>
+  
+  Eigenschaften:
+  
+  - präziser Schnitt
+  - schöne Oberfläche 
+  - lange Arbeitzeit</TileSandstone.description>
+  
+  <!-- EN: slate tile -->
+  <TileSlate.label>Schieferfliese</TileSlate.label>
+  <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+  <TileSlate.description>
+  
+  Eigenschaften:
+  
+  - präziser Schnitt
+  - schöne Oberfläche 
+  - lange Arbeitzeit</TileSlate.description>
+  
+</LanguageData>

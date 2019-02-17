@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<HaulUrgently.label>Priorisiert Objekte transportieren</HaulUrgently.label>
+	<HaulUrgently.verb>Priorisiert transportieren</HaulUrgently.verb>
+	<HaulUrgently.gerund>Priorisiert transportieren</HaulUrgently.gerund>
+	
+	<FinishOff.label>Kreatur töten</FinishOff.label>
+	<FinishOff.verb>töten</FinishOff.verb>
+	<FinishOff.gerund>töten</FinishOff.gerund>
+	
+</LanguageData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<DesignatorAllow.label>Werkzeug: Erlauben</DesignatorAllow.label>
+	
+	<DesignatorForbid.label>Werkzeug: Verbieten</DesignatorForbid.label>
+	
+	<DesignatorAllowAll.label>Werkzeug: Alles erlauben</DesignatorAllowAll.label>
+	
+	<DesignatorSelectSimilar.label>Werkzeug: Wähle selbes</DesignatorSelectSimilar.label>
+	
+	<DesignatorHaulUrgently.label>Werkzeug: Priorisiert transportieren</DesignatorHaulUrgently.label>
+	
+	<DesignatorFinishOff.label>Werkzeug: Töten</DesignatorFinishOff.label>
+	
+	<ToolContextMenuAction.label>Aktuelles Werkzeug: Kontextmenü-Aktion</ToolContextMenuAction.label>
+
+</LanguageData>

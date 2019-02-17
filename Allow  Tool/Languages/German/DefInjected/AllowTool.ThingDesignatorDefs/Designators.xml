@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<AllowDesignator.label>Selektiertes erlauben</AllowDesignator.label>
+	<AllowDesignator.description>Erlaube alle Objekte im Wahl Gebiet. Klicke und halte Maustaste gedrückt für Wahl vom Gebiet, welches alle Objekte markiert.</AllowDesignator.description>
+
+	<ForbidDesignator.label>Selektiertes verbieten</ForbidDesignator.label>
+	<ForbidDesignator.description>Verbiete alle Objekte im Wahl Gebiet. Klicke und halte Maustaste gedrückt für Wahl vom Gebiet, welches alle Objekte markiert.</ForbidDesignator.description>
+	
+	<AllowAllDesignator.label>Erlaube alles</AllowAllDesignator.label>
+	<AllowAllDesignator.description>Lösche alle Objekt Verbote auf Karte. Klicke, für Aktivierung. &lt;b&gt;Halte Strg&lt;/b&gt; inclusive Gebäude.
+&lt;b&gt;Halte Shift&lt;/b&gt; inclusive Skelette / verottende Körper.</AllowAllDesignator.description>
+	
+	<SelectSimilarDesignator.label>Wähle selbes</SelectSimilarDesignator.label>
+	<SelectSimilarDesignator.description>Wähle ausschließlich Objekte selber Art. &lt;b&gt;Halte Shift&lt;/b&gt; für weitere Objekte.
+&lt;b&gt;Halte Alt&lt;/b&gt; für Ignorieren vom Wahl Limit.</SelectSimilarDesignator.description>
+
+	<HaulUrgentlyDesignator.label>Priorisiertes transportieren</HaulUrgentlyDesignator.label>
+	<HaulUrgentlyDesignator.description>Für priorisierten Transport, markiere Objekte. Kolonisten werden priorisiert transporten und im Anschluß generelle Tätigkeit weiter machen.
+In Arbeitleiste konfigurierbar.
+&lt;b&gt;Halte Shift&lt;/b&gt; für Abbruch aktueller Kolonist Tätigkeit.</HaulUrgentlyDesignator.description>
+
+	<FinishOffDesignator.label>töten</FinishOffDesignator.label>
+	<FinishOffDesignator.description>Kreaturen töten.
+&lt;b&gt;Halte Shift&lt;/b&gt; sodaß Kolonisten / Verbündete mitmachen.</FinishOffDesignator.description>
+	
+</LanguageData>

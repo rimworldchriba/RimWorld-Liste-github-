@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aurora -->
+  <Aurora.label>Aurora</Aurora.label>
+  <!-- EN: Aurora -->
+  <Aurora.letterLabel>Aurora</Aurora.letterLabel>
+  <!-- EN: A beautiful aurora is lighting up the sky.\n\nThe undulating colors will boost the mood of anyone outside to see them, and make the night brighter. -->
+  <Aurora.letterText>Polarlicht strahlt im Himmel.\n\nFarbfrequenzen dieser Art regen alle Kolonisten, die draußen sind, für generelles Wohlbefinden an. So macht Arbeit Freude.</Aurora.letterText>
+  
+  <!-- EN: eclipse -->
+  <Eclipse.label>Sonnenfinsternis</Eclipse.label>
+  <!-- EN: Eclipse -->
+  <Eclipse.letterLabel>Sonnenfinsternis</Eclipse.letterLabel>
+  <!-- EN: One of the moons of this planet has orbited in front of the sun. An eclipse has begun. -->
+  <Eclipse.letterText>Die Position von einem Mond in Nähe von diesem Planet ist zwischen Planet und Sonne. So endwickelt sich Sonnenfinsternis.</Eclipse.letterText>
+  
+  <!-- EN: solar flare -->
+  <SolarFlare.label>Sonneneruption</SolarFlare.label>
+  <!-- EN: Solar flare -->
+  <SolarFlare.letterLabel>Sonnen Energiewelle</SolarFlare.letterLabel>
+  <!-- EN: A solar flare has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nIt should pass in about a day. -->
+  <SolarFlare.letterText>Sonnen Energiewelle Beginn\n\nHohes Energiepotential stört elektrische Geräte, sodaß elektrische Geräte nicht nutzbar sind.\n\nDieses hohe Energiewelle Potential ist in vorraussichtlich 1 Tag neutralisiert.</SolarFlare.letterText>
+  
+</LanguageData>

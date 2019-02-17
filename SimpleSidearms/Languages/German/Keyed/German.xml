@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<ActiveTab_desc></ActiveTab_desc>
+<ActiveTab_title>Einstellungen (Kategorie)</ActiveTab_title>
+<OptimalMelee_desc>Automatisches Wechseln: automatisch DPS Nahkampfwaffe mit höchstem Wert nutzen? (Ziel Rüstung wird automatisch kalkuliert)</OptimalMelee_desc>
+<OptimalMelee_title>Beste Nahkampf Waffe</OptimalMelee_title>
+<CQCAutoSwitch_desc>Automatisch Nahkampf sidearms aktivieren, wenn feindlicher Nahkampfangriff?</CQCAutoSwitch_desc>
+<CQCAutoSwitch_title>Nahkampf autoWechsel</CQCAutoSwitch_title>
+<CQCFistSwitch_desc>Sollen Charaktere ebenso Waffe wechseln, wenn aktuell keine Waffe benutzt wird?</CQCFistSwitch_desc>
+<CQCFistSwitch_title>Unbewaffnet autoWechsel</CQCFistSwitch_title>
+<CQCTargetOnly_desc>Ausschließlich reagieren, wenn aktuelles Ziel agiert?</CQCTargetOnly_desc>
+<CQCTargetOnly_title>Ausschließlich wechseln, wenn Ziel angreift</CQCTargetOnly_title>
+
+<DropMode_desc>In welcher Situation lassen Charaktere Waffe fallen, anstelle ins Inventory tun?</DropMode_desc>
+<DropMode_title>Waffe fallen lassen</DropMode_title>
+<ReEquipBest_desc>Nach Waffe fallen lassen wird sich Charakter anstelle mit nahest möglicher Waffe, mit Eigenschaften bestmöglicher, findbarer Waffe wiederbewaffnen (autoWiederbewaffnung)</ReEquipBest_desc>
+<ReEquipBest_title>Wiederbewaffnung: bestmögliche Waffe</ReEquipBest_title>
+
+<LimitCarryInfo_desc></LimitCarryInfo_desc>
+<LimitCarryInfo_title>*Limit ist Tragekapazität (TraK)</LimitCarryInfo_title>
+
+<CEOverrideInfo_desc></CEOverrideInfo_desc>
+<CEOverrideInfo_title>Deaktiviert im Sinne CE's Systeme.</CEOverrideInfo_title>
+
+<LimitModeAmountMelee_desc>Welche Richtlinien sind für alle Nahkampf sidearms?</LimitModeAmountMelee_desc>
+<LimitModeAmountMelee_title>Nahkampf sidearms Limit Modus</LimitModeAmountMelee_title>
+<LimitModeAmountRanged_desc>Welche Richtlinien sind für alle Distanz sidearms?</LimitModeAmountRanged_desc>
+<LimitModeAmountRanged_title>Distanz sidearms Limit Modus</LimitModeAmountRanged_title>
+<LimitModeAmount_desc>Welche Richtlinien sind für alle sidearms?</LimitModeAmount_desc>
+<LimitModeAmount_title>Alle sidearms Limit Modus</LimitModeAmount_title>
+<LimitModeSingleMelee_desc>Welche Richtlinien sind für individuelle Nahkampf sidearms?</LimitModeSingleMelee_desc>
+<LimitModeSingleMelee_title>Singel Nahkampf sidearms Limit Modus</LimitModeSingleMelee_title>
+<LimitModeSingleRanged_desc>Welche Richtlinien sind für individuelle Distanz sidearms?.</LimitModeSingleRanged_desc>
+<LimitModeSingleRanged_title>Singel Distanz sidearms Limit Modus</LimitModeSingleRanged_title>
+<LimitModeSingle_desc>Welche Richtlinien sind für individuelle sidearms?</LimitModeSingle_desc>
+<LimitModeSingle_title>Singel sidearms Limit</LimitModeSingle_title>
+
+<LimitModeAmountTotal_title>Alle</LimitModeAmountTotal_title>
+<LimitModeAmountTotal_desc>Welche Richtlinien sind für alle sidearms?</LimitModeAmountTotal_desc>
+
+<MaximumMassAmountAbsolute_desc>Maximale Anzahl sidearms, die Charaktere tragen können.</MaximumMassAmountAbsolute_desc>
+<MaximumMassAmountAbsolute_title>Max. Anzahl sidearms</MaximumMassAmountAbsolute_title>
+<MaximumMassAmountRelative_desc>Maximale % Anzahl sidearms, die der Charakter in Relation Tragekapazität tragen kann.</MaximumMassAmountRelative_desc>
+<MaximumMassAmountRelative_title>Max. % sidearms</MaximumMassAmountRelative_title>
+<MaximumMassSingleAbsolute_desc>Maximum Anzahl singel sidearms, die der Charakter tragen kann.</MaximumMassSingleAbsolute_desc>
+<MaximumMassSingleAbsolute_title>Max. Anzahl je sidearms</MaximumMassSingleAbsolute_title>
+<MaximumMassSingleRelative_desc>Max. % Anzahl single sidearms, die der Charakter in Relation Tragekapazität tragen kann.</MaximumMassSingleRelative_desc>
+<MaximumMassSingleRelative_title>Max. % Anzahl je sidearms</MaximumMassSingleRelative_title>
+<MaximumSlots_desc>Wie viele sidearms der Charakter tragen kann.</MaximumSlots_desc>
+<MaximumSlots_title>Freie Kapazitäten</MaximumSlots_title>
+<RangedCombatAutoSwitchMaxWarmup_desc>Schwelle, bei der sich Charaktere weigern, Schießen für sidearms Wechsel abbrechen</RangedCombatAutoSwitchMaxWarmup_desc>
+<RangedCombatAutoSwitchMaxWarmup_title>Max. % Vorbereitungzeit</RangedCombatAutoSwitchMaxWarmup_title>
+<RangedCombatAutoSwitch_desc>Sollen Charaktere in reichweiten-richtige Distanz sidearms wechseln, wenn von Distanz angegriffen (Feind) wird?</RangedCombatAutoSwitch_desc>
+<RangedCombatAutoSwitch_title>Distanz autoWechsel</RangedCombatAutoSwitch_title>
+<SeparateModes_desc>Sind Nahkampf / Distanz Waffen mit selber oder separater Richtline?</SeparateModes_desc>
+<SeparateModes_title>Nahkampf/Distanz separieren</SeparateModes_title>
+<SidearmSelection_desc></SidearmSelection_desc>
+<SidearmSelection_title>Wahl sidearms</SidearmSelection_title>
+<SidearmSpawnChance_desc>Bei Charakter, die mit Waffe spawnen, ist Chance für weitere sidearms.</SidearmSpawnChance_desc>
+<SidearmSpawnChance_title>sidearms spawn chance</SidearmSpawnChance_title>
+<SingleshotAutoSwitch_desc>Sollen Charaktere sidearms nach nutzen von Einmal-Objekte (Granate,...) aktivieren?</SingleshotAutoSwitch_desc>
+<SingleshotAutoSwitch_title>autoWechsel nach Einmal-Objekt</SingleshotAutoSwitch_title>
+<SpeedSelectionBiasMelee_desc>Charakter wählt Waffe mit Fokus: große Angriffgeschwindigkeit.</SpeedSelectionBiasMelee_desc>
+<SpeedSelectionBiasMelee_title>Fokus: Angriffgeschwindigkeit (Nahkampf)</SpeedSelectionBiasMelee_title>
+<SpeedSelectionBiasRanged_desc>Charakter wählt Waffe mit Fokus: kleine Vorbereitungzeit.</SpeedSelectionBiasRanged_desc>
+<SpeedSelectionBiasRanged_title>Fokus: kleine Vorbereitungzeit (Distanz)</SpeedSelectionBiasRanged_title>
+<WeaponMatch_desc>Das sind Waffen, mit Eigenschaften nahe der Wahlvorgabe.</WeaponMatch_desc>
+<WeaponMatch_title></WeaponMatch_title>
+
+<SidearmsEnableNeolithicExtension_desc>Erlaube Stammangehörigen mehr Waffen für Nutzung als sidearms.</SidearmsEnableNeolithicExtension_desc>
+<SidearmsEnableNeolithicExtension_title>weitere Waffen für Stammesangehörige</SidearmsEnableNeolithicExtension_title>
+<SidearmsNeolithicExtension_desc></SidearmsNeolithicExtension_desc>
+<SidearmsNeolithicExtension_title>Definition: nutzbar für Stammesangehörige</SidearmsNeolithicExtension_title>
+	
+<LimitModeSingle_option_None>Ohne Limit</LimitModeSingle_option_None>
+<LimitModeSingle_option_RelativeWeight>% Waffe/
+	TraK</LimitModeSingle_option_RelativeWeight>
+<LimitModeSingle_option_AbsoluteWeight>Max. Anzahl</LimitModeSingle_option_AbsoluteWeight>
+<LimitModeSingle_option_Selection>Spez. Waffe</LimitModeSingle_option_Selection>
+
+<LimitModeAmount_option_MaximumCarryWeightOnly>Ohne Limit</LimitModeAmount_option_MaximumCarryWeightOnly>
+<LimitModeAmount_option_RelativeWeight>% Waffe/
+	TraK</LimitModeAmount_option_RelativeWeight>
+<LimitModeAmount_option_AbsoluteWeight>Max. Anzahl</LimitModeAmount_option_AbsoluteWeight>
+<LimitModeAmount_option_Slots>Freie Kapazität</LimitModeAmount_option_Slots>
+
+<ActiveTab_option_Folded>&lt;</ActiveTab_option_Folded>
+<ActiveTab_option_Presets>Vorgaben</ActiveTab_option_Presets>
+<ActiveTab_option_Automation>Optionen</ActiveTab_option_Automation>
+<ActiveTab_option_Allowances>Limits</ActiveTab_option_Allowances>
+<ActiveTab_option_Spawning>Spawning</ActiveTab_option_Spawning>
+<ActiveTab_option_Misc>Weiteres</ActiveTab_option_Misc>
+
+<DropMode_option_Never>Nie</DropMode_option_Never>
+<DropMode_option_Panic>Nahkampf</DropMode_option_Panic>
+<DropMode_option_PanicOrRange>Kampf</DropMode_option_PanicOrRange>
+<DropMode_option_Always>Immer</DropMode_option_Always>
+
+<PresetExport_title></PresetExport_title>
+<PresetExport_desc></PresetExport_desc>
+<PresetExport_label>Kopiere aktive Konfiguration in Zwischenablage</PresetExport_label>
+
+
+<PresetCustom_title>Benutzerdefiniert</PresetCustom_title>
+<PresetCustom_desc>=> Benutzerdefiniert: Wird automatisch selektiert, wenn Einstellungänderung</PresetCustom_desc>
+<PresetCustom_label></PresetCustom_label>
+<Preset0_title>Deaktiviert</Preset0_title>
+<Preset0_desc>=> Deaktiviert: Alle Optionen deaktiviert. Gute Grundlage für Konfigurationen mit kleiner Beeinflussung von Mod Eigenschaften</Preset0_desc>
+<Preset0_label></Preset0_label>
+<Preset1half_title>Simpel</Preset1half_title>
+<Preset1half_desc>=> Simpel: Erlaubt Einmal-Objekt (Granate) als sidearms</Preset1half_desc>
+<Preset1half_label></Preset1half_label>
+<Preset1_title>Inventory (ohne autoWechsel)</Preset1_title>
+<Preset1_desc>=> Inventory (ohne autoWechsel): sidearmsfunktion ist ausschließlich Inventory (ohne automatischer Wechsel).</Preset1_desc>
+<Preset1_label></Preset1_label>
+<Preset2_title>Basis</Preset2_title>
+<Preset2_desc>=> Basis: Charakter können einige leichte Waffen nutzen und werden sie in Situationen richtig nutzen</Preset2_desc>
+<Preset2_label></Preset2_label>
+<Preset3_title>Spezial</Preset3_title>
+<Preset3_desc>=> Spezial: Charaktere sind mit Waffen Wahl kreativer, sensitiv für Situationen mit Feindaktionen im Kampf</Preset3_desc>
+<Preset3_label></Preset3_label>
+<Preset4_title>Rambo</Preset4_title>
+<Preset4_desc>=> Rambo: Bring alles! Minigun? Bring zwei! Speere? Hier ist eine Kollektion im Rucksack!</Preset4_desc>
+<Preset4_label></Preset4_label>
+<Preset5_title>Raufbold</Preset5_title>
+<Preset5_desc>=> Raufbold: Nahkampf sidearms für alle</Preset5_desc>
+<Preset5_label></Preset5_label>
+
+
+<SidearmPickupFail_NoFreeSpace>Keine freie Kapazität</SidearmPickupFail_NoFreeSpace>
+<SidearmPickupFail_TooHeavyForSidearm>sidearms Wahl problematisch</SidearmPickupFail_TooHeavyForSidearm>
+<SidearmPickupFail_TooHeavyForSidearmMelee>Nahkampfwaffe Wahl aufgrund Gewicht problematisch</SidearmPickupFail_TooHeavyForSidearmMelee>
+<SidearmPickupFail_TooHeavyForSidearmRanged>Distanzwaffe Wahl aufgrund Gewicht problematisch</SidearmPickupFail_TooHeavyForSidearmRanged>
+<SidearmPickupFail_SidearmsTooHeavy>Für sidearms Option, schwerer wie erelaubt</SidearmPickupFail_SidearmsTooHeavy>
+<SidearmPickupFail_SidearmsTooHeavyMelee>Nahkampfwaffe: Für sidearms Option, schwerer wie erlaubt</SidearmPickupFail_SidearmsTooHeavyMelee>
+<SidearmPickupFail_SidearmsTooHeavyRanged>Distanzwaffe: Für sidearms Option, schwerer wie erlaubt</SidearmPickupFail_SidearmsTooHeavyRanged>
+<SidearmPickupFail_SidearmsTooHeavyInTotal>Für sidearms Option, schwerer wie erlaubt</SidearmPickupFail_SidearmsTooHeavyInTotal>
+<SidearmPickupFail_NotASidearm>Ist keine sidearms</SidearmPickupFail_NotASidearm>
+<SidearmPickupFail_NotASidearmMelee>Ist keine sidearms</SidearmPickupFail_NotASidearmMelee>
+<SidearmPickupFail_NotASidearmRanged>Ist keine sidearms</SidearmPickupFail_NotASidearmRanged>
+<SidearmPickupFail_AllSlotsFull>Kapazität voll</SidearmPickupFail_AllSlotsFull>
+<SidearmPickupFail_MeleeSlotsFull>Nahkampf Waffe Kapazität voll</SidearmPickupFail_MeleeSlotsFull>
+<SidearmPickupFail_RangedSlotsFull>Distanz Waffe Kapazität voll</SidearmPickupFail_RangedSlotsFull>
+<SidearmPickupPass>Keine Rausgabe</SidearmPickupPass>
+<AsSidearm> als sidearms</AsSidearm>
+
+<Preset_option_NoneApplied>Keine/r</Preset_option_NoneApplied>
+<Preset_option_Custom>Benutzerdefiniert</Preset_option_Custom>
+<Preset_option_Lite>Leicht</Preset_option_Lite>
+<Preset_option_Disabled>Deaktiviert</Preset_option_Disabled>
+<Preset_option_LoadoutOnly>Ausschließlich Bewaffnung</Preset_option_LoadoutOnly>
+<Preset_option_Basic>Basis</Preset_option_Basic>
+<Preset_option_Advanced>Spezielle Konfiguration</Preset_option_Advanced>
+<Preset_option_Excessive>Rambo</Preset_option_Excessive>
+<Preset_option_Brawler>Raufbold</Preset_option_Brawler>
+
+<WeaponListKind_option_Both>Beide</WeaponListKind_option_Both>
+<WeaponListKind_option_Melee>Nahkampf</WeaponListKind_option_Melee>
+<WeaponListKind_option_Ranged>Distanz</WeaponListKind_option_Ranged>
+
+<TribalWeapons>Stammesangehöriger</TribalWeapons>
+<NonTribalWeapons>Kein Stammesangehöriger</NonTribalWeapons>
+
+<ConsideredSidearms>sidearms</ConsideredSidearms>
+<NotConsideredSidearms>Keine sidearms</NotConsideredSidearms>
+
+<LockedWeaponSwitch>aus: Fernkampf autoWechsel (Nah weiter an)</LockedWeaponSwitch>
+<UnlockedWeaponSwitch>an: Fernkampf autoWechsel (Nah weiter an)</UnlockedWeaponSwitch>
+
+<WeaponSwitchAutolockOn>oberes Schloß wird automatisch rot (geschlossen), wenn Spieler selbst "Fernkampfwaffe" wählt</WeaponSwitchAutolockOn>
+<WeaponSwitchAutolockOff>Ohne Effekt</WeaponSwitchAutolockOff>
+
+<DrawSidearm_gizmoTitle>Waffen</DrawSidearm_gizmoTitle>
+<DrawSidearm_gizmoTooltip>Links Klick für {0} ziehen.
+Rechts Klick für {0} fallen lassen.</DrawSidearm_gizmoTooltip>
+<DrawSidearm_gizmoTooltipMemory>Rechts Klick für: Keinen weiteren Fokus auf {0}.</DrawSidearm_gizmoTooltipMemory>
+<DrawSidearm_gizmoTooltipUnarmed>Links Klick: Faustangriff.</DrawSidearm_gizmoTooltipUnarmed>
+
+<Alert_MissingSidearm_label>Kolonist sucht sidearms</Alert_MissingSidearm_label>
+<Alert_MissingPrimary_label>Kolonist sucht Primärwaffe</Alert_MissingPrimary_label>
+
+<Alert_MissingSidearm_desc>Diese Kolonisten suchen sidearms:\n\n{0}</Alert_MissingSidearm_desc>
+<Alert_MissingPrimary_desc>Diese Kolonisten suchen Primärwaffen:\n\n{0}</Alert_MissingPrimary_desc>
+
+</LanguageData>

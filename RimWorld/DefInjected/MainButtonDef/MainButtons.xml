@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: animals -->
+  <Animals.label>Kolonietiere</Animals.label>
+  <!-- EN: Configure how the colony's tame animals should be treated. -->
+  <Animals.description>Definiere Interaktion mit zahme Tiere.</Animals.description>
+  
+  <!-- EN: architect -->
+  <Architect.label>Architekt</Architect.label>
+  <!-- EN: Designate where to build, farm, store items, and so on. -->
+  <Architect.description>Definiere, wo und was Kolonisten bauen, pflanzen, lagern...</Architect.description>
+  
+  <!-- EN: assign -->
+  <Assign.label>Richtlinien</Assign.label>
+  <!-- EN: Assign behaviors to colonists like what they should wear, what drugs to take, or how to respond to enemies. -->
+  <Assign.description>Definiere Kolonisten Reaktion. Bsp: Welche Art Kleidung, wenn ja welche Drogen, oder wie hinsichtlich Gegner reagiert wird.</Assign.description>
+  
+  <!-- EN: factions -->
+  <Factions.label>Fraktionen</Factions.label>
+  <!-- EN: Review the other factions on this world and their relationships. -->
+  <Factions.description>Analysiere andere Fraktionen und aktuelles Ansehen (Freund/Feind).</Factions.description>
+  
+  <!-- EN: history -->
+  <History.label>Historie</History.label>
+  <!-- EN: Review historical records. -->
+  <History.description>Prüfe historische Aufzeichnungen (Statistiken).</History.description>
+  
+  <!-- EN: inspect -->
+  <Inspect.label>Untersuchen</Inspect.label>
+  
+  <!-- EN: menu -->
+  <Menu.label>RimWorld</Menu.label>
+  <!-- EN: Change options, save, load, or quit the game. -->
+  <Menu.description>Laden, speichern, Einstellungen, Spielende.</Menu.description>
+  
+  <!-- EN: research -->
+  <Research.label>Forschung</Research.label>
+  <!-- EN: Examine and decide on research projects. -->
+  <Research.description>Analysiere Forschungmöglichkeiten und aktiviere aktuelle Forschung.</Research.description>
+  
+  <!-- EN: restrict -->
+  <Restrict.label>Zeit/Areal</Restrict.label>
+  <!-- EN: Restrict colonists to certain activities at certain times of day, or to specific allowed areas. -->
+  <Restrict.description>Definiere Zeitrahmen und Tätigkeitareal.</Restrict.description>
+  
+  <!-- EN: wildlife -->
+  <Wildlife.label>Wildtiere</Wildlife.label>
+  <!-- EN: List wild animals in the area and designate them for hunting or taming. -->
+  <Wildlife.description>Wildtiere im Gebiet für Jagd oder Zähmung.</Wildlife.description>
+  
+  <!-- EN: work -->
+  <Work.label>Tun/Prio</Work.label>
+  <!-- EN: Choose which colonist does what kinds of work, and in what order. -->
+  <Work.description>Definiere Tätigkeit und Priorität.</Work.description>
+  
+  <!-- EN: world -->
+  <World.label>Welt</World.label>
+  <!-- EN: Examine the world map, form, and manage caravans. -->
+  <World.description>Weltkarte, generiere und organisiere Karawanen.</World.description>
+  
+</LanguageData>

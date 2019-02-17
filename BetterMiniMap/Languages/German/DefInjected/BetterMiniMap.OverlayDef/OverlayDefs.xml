@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ColonistsOverlay.label>Kolonist</ColonistsOverlay.label>
+    <NonColonistOverlay.label>Gast</NonColonistOverlay.label>
+    <RobotsOverlay.label>Roboter</RobotsOverlay.label>
+    <ShipsOverlay.label>Schiff</ShipsOverlay.label>
+    <WildlifeOverlay.label>Fauna</WildlifeOverlay.label>
+
+</LanguageData>
