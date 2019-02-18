@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: boreal forest -->
+  <BorealForest.label>Nadelwald</BorealForest.label>
+  <!-- EN: Forests of coniferous trees. Despite the harsh winters, boreal forests sustain a diverse population of small and large animals, and have warm summers. -->
+  <BorealForest.description>Nadelbaumwald. Eisige Winter, Fauna mit kleine ebenso große Tiere. Sommer können sehr warm werden.</BorealForest.description>
+  
+  <!-- EN: cold bog -->
+  <ColdBog.label>Kalter Sumpf</ColdBog.label>
+  <!-- EN: A wetland packed with trees and vines. Much of the marshy land here can't support heavy structures, moving around is slow due to choking vegetation. Disease is endemic in this dense, wet ecosystem. -->
+  <ColdBog.description>Feuchtgebiet mit Bäume und Schlingpflanzen. Großteil vom sumpfigen Bodens ist nicht fest für Bauen schwerer Strukturen. Bewegung ist aufgrund von Vegetation langsamer. Ebenso sind Krankheiten in diesem dichten, feuchten Ökosystem ein großes Problem.</ColdBog.description>
+  
+  <!-- EN: ice sheet -->
+  <IceSheet.label>Eisdecke</IceSheet.label>
+  <!-- EN: Sheets of ice which can be kilometers thick. There is no soil for plants to grow in. The only animals here are migrating to somewhere else - or badly lost. -->
+  <IceSheet.description>Kilometerweite, dicke Eisplatten bedecken das Land. Hier gibt es keine Pflanzen, aufgrund nicht freiem Erdboden oder Felsen. Tiere, die man hier sieht, sind auf der Durchreise in andere Gefilde - oder irrten sich hierher.</IceSheet.description>
+  
+  <!-- EN: sea ice -->
+  <SeaIce.label>Eismeer</SeaIce.label>
+  <!-- EN: Permanent ice sheets floating on water. There is no soil for plants to grow, no minerals to mine, and almost no animal life. -->
+  <SeaIce.description>Permanentes Eis, das auf Wasser schwimmt. Hier gibt es keine Erde für Pflanzen, keine Mineralien und ebenso wenig Tiere.</SeaIce.description>
+  
+  <!-- EN: tundra -->
+  <Tundra.label>Tundra</Tundra.label>
+  <!-- EN: These mostly-frozen plains bear almost no trees and little vegetation. There are a few small animals interspersed with large herds of migratory grazers and their predators. -->
+  <Tundra.description>Diese nahe 100% gefrorene Landschaft hat wenig Bäume und wenig Pflanzen. Hier gibt es wenig kleinere Tiere und einzelne große Herden pflanzenfressender Wandertiere und deren Jäger.</Tundra.description>
+  
+</LanguageData>

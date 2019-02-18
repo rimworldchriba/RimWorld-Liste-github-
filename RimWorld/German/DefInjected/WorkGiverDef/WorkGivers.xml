@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: release prisoners -->
+  <BasicReleasePrisoner.label>freigeben</BasicReleasePrisoner.label>
+  <!-- EN: releasing -->
+  <BasicReleasePrisoner.gerund>freigeben</BasicReleasePrisoner.gerund>
+  <!-- EN: release -->
+  <BasicReleasePrisoner.verb>freigeben</BasicReleasePrisoner.verb>
+  
+  <!-- EN: build roofs -->
+  <BuildRoofs.label>Dach bauen</BuildRoofs.label>
+  <!-- EN: building roof -->
+  <BuildRoofs.gerund>Dach-Bauen im</BuildRoofs.gerund>
+  <!-- EN: build roof -->
+  <BuildRoofs.verb>Dach bauen</BuildRoofs.verb>
+  
+  <!-- EN: chat with prisoners -->
+  <ChatWithPrisoner.label>Spreche mit</ChatWithPrisoner.label>
+  <!-- EN: chatting with -->
+  <ChatWithPrisoner.gerund>Spreche mit</ChatWithPrisoner.gerund>
+  <!-- EN: chat with -->
+  <ChatWithPrisoner.verb>sprechen</ChatWithPrisoner.verb>
+  
+  <!-- EN: clear snow -->
+  <CleanClearSnow.label>Schnee fegen</CleanClearSnow.label>
+  <!-- EN: clearing snow -->
+  <CleanClearSnow.gerund>Schnee-Fegen im</CleanClearSnow.gerund>
+  <!-- EN: clear snow -->
+  <CleanClearSnow.verb>fegen</CleanClearSnow.verb>
+  
+  <!-- EN: clean filth -->
+  <CleanFilth.label>Boden reinigen</CleanFilth.label>
+  <!-- EN: cleaning -->
+  <CleanFilth.gerund>Reinige/Beseitige</CleanFilth.gerund>
+  <!-- EN: clean -->
+  <CleanFilth.verb>Reinige/Beseitige</CleanFilth.verb>
+  
+  <!-- EN: deliver resources to blueprints -->
+  <ConstructDeliverResourcesToBlueprints.label>Rohstoffe an Bauplan bringen</ConstructDeliverResourcesToBlueprints.label>
+  <!-- EN: working on -->
+  <ConstructDeliverResourcesToBlueprints.gerund>arbeiten an</ConstructDeliverResourcesToBlueprints.gerund>
+  <!-- EN: work on -->
+  <ConstructDeliverResourcesToBlueprints.verb>bearbeiten</ConstructDeliverResourcesToBlueprints.verb>
+  
+  <!-- EN: deliver resources to frames -->
+  <ConstructDeliverResourcesToFrames.label>Rohstoffe ans Gerüst bringen</ConstructDeliverResourcesToFrames.label>
+  <!-- EN: working on -->
+  <ConstructDeliverResourcesToFrames.gerund>dran arbeiten</ConstructDeliverResourcesToFrames.gerund>
+  <!-- EN: work on -->
+  <ConstructDeliverResourcesToFrames.verb>dran arbeiten</ConstructDeliverResourcesToFrames.verb>
+  
+  <!-- EN: construct placed frames -->
+  <ConstructFinishFrames.label>konstruiere Mauer</ConstructFinishFrames.label>
+  <!-- EN: constructing -->
+  <ConstructFinishFrames.gerund>konstruieren</ConstructFinishFrames.gerund>
+  <!-- EN: construct -->
+  <ConstructFinishFrames.verb>konstruiere</ConstructFinishFrames.verb>
+  
+  <!-- EN: remove floors -->
+  <ConstructRemoveFloors.label>Boden demontieren</ConstructRemoveFloors.label>
+  <!-- EN: removing floor -->
+  <ConstructRemoveFloors.gerund>Boden demontieren</ConstructRemoveFloors.gerund>
+  <!-- EN: remove floor -->
+  <ConstructRemoveFloors.verb>demontiere Boden</ConstructRemoveFloors.verb>
+  
+  <!-- EN: smooth floors -->
+  <ConstructSmoothFloors.label>Boden glätten</ConstructSmoothFloors.label>
+  <!-- EN: smoothing -->
+  <ConstructSmoothFloors.gerund>Boden glätten</ConstructSmoothFloors.gerund>
+  <!-- EN: smooth -->
+  <ConstructSmoothFloors.verb>glätten</ConstructSmoothFloors.verb>
+  
+  <!-- EN: smooth walls -->
+  <ConstructSmoothWalls.label>Wand glätten</ConstructSmoothWalls.label>
+  <!-- EN: smoothing -->
+  <ConstructSmoothWalls.gerund>Wand glätten</ConstructSmoothWalls.gerund>
+  <!-- EN: smooth -->
+  <ConstructSmoothWalls.verb>glätten</ConstructSmoothWalls.verb>
+  
+  <!-- EN: fill food hoppers -->
+  <CookFillHopper.label>Trichter füllen</CookFillHopper.label>
+  <!-- EN: filling -->
+  <CookFillHopper.gerund>füllen</CookFillHopper.gerund>
+  <!-- EN: fill -->
+  <CookFillHopper.verb>füllen</CookFillHopper.verb>
+  
+  <!-- EN: deconstruct structures -->
+  <Deconstruct.label>Strukturen demontieren</Deconstruct.label>
+  <!-- EN: deconstructing -->
+  <Deconstruct.gerund>demontieren</Deconstruct.gerund>
+  <!-- EN: deconstruct -->
+  <Deconstruct.verb>demontieren</Deconstruct.verb>
+  
+  <!-- EN: deliver food to prisoners -->
+  <DeliverFoodToPrisoner.label>Gefangenen Essen bringen</DeliverFoodToPrisoner.label>
+  <!-- EN: delivering food for -->
+  <DeliverFoodToPrisoner.gerund>Bring Essen -></DeliverFoodToPrisoner.gerund>
+  <!-- EN: deliver food for -->
+  <DeliverFoodToPrisoner.verb>bringe Essen -></DeliverFoodToPrisoner.verb>
+  
+  <!-- EN: deliver resources to blueprints -->
+  <DeliverResourcesToBlueprints.label>Trage Objekte->Architekturvorgaben</DeliverResourcesToBlueprints.label>
+  <!-- EN: delivering to -->
+  <DeliverResourcesToBlueprints.gerund>Transport-></DeliverResourcesToBlueprints.gerund>
+  <!-- EN: deliver to -->
+  <DeliverResourcesToBlueprints.verb>Trage-></DeliverResourcesToBlueprints.verb>
+  
+  <!-- EN: deliver resources to frames -->
+  <DeliverResourcesToFrames.label>Liefere Objekte->Wand</DeliverResourcesToFrames.label>
+  <!-- EN: delivering to -->
+  <DeliverResourcesToFrames.gerund>Lieferung-></DeliverResourcesToFrames.gerund>
+  <!-- EN: deliver to -->
+  <DeliverResourcesToFrames.verb>liefere-></DeliverResourcesToFrames.verb>
+  
+  <!-- EN: brew liquors -->
+  <DoBillsBrew.label>Alkohol brauen</DoBillsBrew.label>
+  <!-- EN: brewing at -->
+  <DoBillsBrew.gerund>brauen bei</DoBillsBrew.gerund>
+  <!-- EN: brew -->
+  <DoBillsBrew.verb>brauen</DoBillsBrew.verb>
+  
+  <!-- EN: butcher creatures -->
+  <DoBillsButcherFlesh.label>Kreatur schlachten</DoBillsButcherFlesh.label>
+  <!-- EN: butchering at -->
+  <DoBillsButcherFlesh.gerund>schlachten bei</DoBillsButcherFlesh.gerund>
+  <!-- EN: butcher -->
+  <DoBillsButcherFlesh.verb>schlachten</DoBillsButcherFlesh.verb>
+  
+  <!-- EN: cook meals at stove -->
+  <DoBillsCook.label>Speisen beim Herd kochen</DoBillsCook.label>
+  <!-- EN: cooking at -->
+  <DoBillsCook.gerund>kochen beim</DoBillsCook.gerund>
+  <!-- EN: cook -->
+  <DoBillsCook.verb>kochen</DoBillsCook.verb>
+  
+  <!-- EN: cook meals at campfire -->
+  <DoBillsCookCampfire.label>Speise beim Lagerfeuer kochen</DoBillsCookCampfire.label>
+  <!-- EN: cooking at -->
+  <DoBillsCookCampfire.gerund>kochen beim</DoBillsCookCampfire.gerund>
+  <!-- EN: cook -->
+  <DoBillsCookCampfire.verb>kochen</DoBillsCookCampfire.verb>
+  
+  <!-- EN: do cremation bills -->
+  <DoBillsCremate.label>Leichen äschern</DoBillsCremate.label>
+  <!-- EN: cremating at -->
+  <DoBillsCremate.gerund>Einäschern bei</DoBillsCremate.gerund>
+  <!-- EN: cremate -->
+  <DoBillsCremate.verb>äschern</DoBillsCremate.verb>
+  
+  <!-- EN: fabricate things -->
+  <DoBillsFabricationBench.label>produzieren</DoBillsFabricationBench.label>
+  <!-- EN: fabricating things at -->
+  <DoBillsFabricationBench.gerund>produziere bei</DoBillsFabricationBench.gerund>
+  <!-- EN: fabricating things -->
+  <DoBillsFabricationBench.verb>produziere Fertigungen</DoBillsFabricationBench.verb>
+  
+  <!-- EN: do bills at campfire -->
+  <DoBillsHaulCampfire.label>Produziere beim Lagerfeuer</DoBillsHaulCampfire.label>
+  <!-- EN: working at -->
+  <DoBillsHaulCampfire.gerund>Arbeiten beim</DoBillsHaulCampfire.gerund>
+  <!-- EN: work at -->
+  <DoBillsHaulCampfire.verb>arbeiten beim</DoBillsHaulCampfire.verb>
+  
+  <!-- EN: make things at machining table -->
+  <DoBillsMachiningTable.label>bei Mechanik Werkbank arbeiten</DoBillsMachiningTable.label>
+  <!-- EN: working at -->
+  <DoBillsMachiningTable.gerund>arbeiten bei</DoBillsMachiningTable.gerund>
+  <!-- EN: work -->
+  <DoBillsMachiningTable.verb>arbeiten</DoBillsMachiningTable.verb>
+  
+  <!-- EN: make apparel -->
+  <DoBillsMakeApparel.label>Kleidung schneidern</DoBillsMakeApparel.label>
+  <!-- EN: tailoring at -->
+  <DoBillsMakeApparel.gerund>schneidern bei</DoBillsMakeApparel.gerund>
+  <!-- EN: tailor -->
+  <DoBillsMakeApparel.verb>schneidern</DoBillsMakeApparel.verb>
+  
+  <!-- EN: make weapons -->
+  <DoBillsMakeWeapons.label>Waffe fertigen</DoBillsMakeWeapons.label>
+  <!-- EN: smithing at -->
+  <DoBillsMakeWeapons.gerund>schmieden bei</DoBillsMakeWeapons.gerund>
+  <!-- EN: smith -->
+  <DoBillsMakeWeapons.verb>schmieden</DoBillsMakeWeapons.verb>
+  
+  <!-- EN: operate on animals -->
+  <DoBillsMedicalAnimalOperation.label>Tiere operieren</DoBillsMedicalAnimalOperation.label>
+  <!-- EN: operating on -->
+  <DoBillsMedicalAnimalOperation.gerund>operieren bei</DoBillsMedicalAnimalOperation.gerund>
+  <!-- EN: operate on -->
+  <DoBillsMedicalAnimalOperation.verb>operieren bei</DoBillsMedicalAnimalOperation.verb>
+  
+  <!-- EN: operate on humanlikes -->
+  <DoBillsMedicalHumanOperation.label>Charakter operieren</DoBillsMedicalHumanOperation.label>
+  <!-- EN: operating on -->
+  <DoBillsMedicalHumanOperation.gerund>operieren bei</DoBillsMedicalHumanOperation.gerund>
+  <!-- EN: operate on -->
+  <DoBillsMedicalHumanOperation.verb>operiere bei</DoBillsMedicalHumanOperation.verb>
+  
+  <!-- EN: synthesize drugs -->
+  <DoBillsProduceDrugs.label>Synthetisiere Drogen</DoBillsProduceDrugs.label>
+  <!-- EN: producing drugs at -->
+  <DoBillsProduceDrugs.gerund>Produziere Drogen bei</DoBillsProduceDrugs.gerund>
+  <!-- EN: produce drugs -->
+  <DoBillsProduceDrugs.verb>Produziere Drogen bei</DoBillsProduceDrugs.verb>
+  
+  <!-- EN: work at refinery -->
+  <DoBillsRefinery.label>Bei Raffinerie arbeiten</DoBillsRefinery.label>
+  <!-- EN: refining chemicals at -->
+  <DoBillsRefinery.gerund>Raffiniere Chemikalien bei</DoBillsRefinery.gerund>
+  <!-- EN: refine chemicals -->
+  <DoBillsRefinery.verb>raffiniere Chemikalien</DoBillsRefinery.verb>
+  
+  <!-- EN: make sculptures -->
+  <DoBillsSculpt.label>Skulptur fertigen</DoBillsSculpt.label>
+  <!-- EN: sculpting at -->
+  <DoBillsSculpt.gerund>fertige Skulpturen bei</DoBillsSculpt.gerund>
+  <!-- EN: sculpt -->
+  <DoBillsSculpt.verb>Skulptur fertigen</DoBillsSculpt.verb>
+  
+  <!-- EN: smelt items -->
+  <DoBillsSmelter.label>schmelze Objekte</DoBillsSmelter.label>
+  <!-- EN: refining at -->
+  <DoBillsSmelter.gerund>Edeln bei</DoBillsSmelter.gerund>
+  <!-- EN: refine -->
+  <DoBillsSmelter.verb>Edel machen</DoBillsSmelter.verb>
+  
+  <!-- EN: make stone blocks -->
+  <DoBillsStonecut.label>Steine bearbeiten</DoBillsStonecut.label>
+  <!-- EN: cutting stone blocks at -->
+  <DoBillsStonecut.gerund>Steinbearbeitung bei</DoBillsStonecut.gerund>
+  <!-- EN: stonecut -->
+  <DoBillsStonecut.verb>Steine bearbeiten</DoBillsStonecut.verb>
+  
+  <!-- EN: make things at crafting spot -->
+  <DoBillsUseCraftingSpot.label>produziere Objekte beim Arbeitplatz</DoBillsUseCraftingSpot.label>
+  <!-- EN: crafting at -->
+  <DoBillsUseCraftingSpot.gerund>produziere bei</DoBillsUseCraftingSpot.gerund>
+  <!-- EN: craft -->
+  <DoBillsUseCraftingSpot.verb>produziere</DoBillsUseCraftingSpot.verb>
+  
+  <!-- EN: feed animals -->
+  <DoctorFeedAnimals.label>Tiere füttern</DoctorFeedAnimals.label>
+  <!-- EN: feeding -->
+  <DoctorFeedAnimals.gerund>füttern</DoctorFeedAnimals.gerund>
+  <!-- EN: feed -->
+  <DoctorFeedAnimals.verb>füttere</DoctorFeedAnimals.verb>
+  
+  <!-- EN: feed patients -->
+  <DoctorFeedHumanlikes.label>Pflegebedürftige nähren</DoctorFeedHumanlikes.label>
+  <!-- EN: feeding -->
+  <DoctorFeedHumanlikes.gerund>füttere</DoctorFeedHumanlikes.gerund>
+  <!-- EN: feed -->
+  <DoctorFeedHumanlikes.verb>füttere</DoctorFeedHumanlikes.verb>
+  
+  <!-- EN: rescue downed allies to bed -->
+  <DoctorRescue.label>Bewusstloser Kolonisten ans Bett bringen</DoctorRescue.label>
+  <!-- EN: rescuing -->
+  <DoctorRescue.gerund>Rette</DoctorRescue.gerund>
+  <!-- EN: rescue -->
+  <DoctorRescue.verb>rette</DoctorRescue.verb>
+  
+  <!-- EN: tend to patients with urgent needs -->
+  <DoctorTendEmergency.label>Pflegebedürftige, mit Bedarf, pflegen</DoctorTendEmergency.label>
+  <!-- EN: tending to -->
+  <DoctorTendEmergency.gerund>pflegen</DoctorTendEmergency.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendEmergency.verb>pflegen</DoctorTendEmergency.verb>
+  
+  <!-- EN: tend to animals -->
+  <DoctorTendToAnimals.label>Tiere pflegen</DoctorTendToAnimals.label>
+  <!-- EN: tending to -->
+  <DoctorTendToAnimals.gerund>pflegen</DoctorTendToAnimals.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToAnimals.verb>pflegen</DoctorTendToAnimals.verb>
+  
+  <!-- EN: tend to patients -->
+  <DoctorTendToHumanlikes.label>Pflegebedürftige pflegen</DoctorTendToHumanlikes.label>
+  <!-- EN: tending to -->
+  <DoctorTendToHumanlikes.gerund>pflegen</DoctorTendToHumanlikes.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToHumanlikes.verb>pflegen</DoctorTendToHumanlikes.verb>
+  
+  <!-- EN: tend to self -->
+  <DoctorTendToSelf.label>Selbst pflegen</DoctorTendToSelf.label>
+  <!-- EN: tending to -->
+  <DoctorTendToSelf.gerund>pflegen</DoctorTendToSelf.gerund>
+  <!-- EN: tend to -->
+  <DoctorTendToSelf.verb>pflegen</DoctorTendToSelf.verb>
+  
+  <!-- EN: execute prisoners -->
+  <DoExecution.label>töten</DoExecution.label>
+  <!-- EN: doing execution on -->
+  <DoExecution.gerund>töten</DoExecution.gerund>
+  <!-- EN: do execution on -->
+  <DoExecution.verb>töten</DoExecution.verb>
+  
+  <!-- EN: drill at deep drill -->
+  <Drill.label>bohren mit Tiefenbohrer</Drill.label>
+  <!-- EN: drilling -->
+  <Drill.gerund>bohrent</Drill.gerund>
+  <!-- EN: drill -->
+  <Drill.verb>bohren</Drill.verb>
+  
+  <!-- EN: feed prisoners -->
+  <FeedPrisoner.label>Gefangene nähren</FeedPrisoner.label>
+  <!-- EN: feeding -->
+  <FeedPrisoner.gerund>nähren</FeedPrisoner.gerund>
+  <!-- EN: feed -->
+  <FeedPrisoner.verb>nähren</FeedPrisoner.verb>
+  
+  <!-- EN: fight fires -->
+  <FightFires.label>Feuer löschen</FightFires.label>
+  <!-- EN: extinguishing -->
+  <FightFires.gerund>löschen</FightFires.gerund>
+  <!-- EN: extinguish -->
+  <FightFires.verb>löschen</FightFires.verb>
+  
+  <!-- EN: fill fermenting barrels -->
+  <FillFermentingBarrel.label>Fass füllen</FillFermentingBarrel.label>
+  <!-- EN: filling -->
+  <FillFermentingBarrel.gerund>füllen</FillFermentingBarrel.gerund>
+  <!-- EN: fill -->
+  <FillFermentingBarrel.verb>befülle</FillFermentingBarrel.verb>
+  
+  <!-- EN: fix broken-down buildings -->
+  <FixBrokenDownBuilding.label>repariere beschädigte Objekte</FixBrokenDownBuilding.label>
+  <!-- EN: replacing broken components in -->
+  <FixBrokenDownBuilding.gerund>tauschen defekte Bauteile bei</FixBrokenDownBuilding.gerund>
+  <!-- EN: replace broken components in -->
+  <FixBrokenDownBuilding.verb>tausche defekte Bauteile bei</FixBrokenDownBuilding.verb>
+  
+  <!-- EN: flick switches -->
+  <Flick.label>an/aus</Flick.label>
+  <!-- EN: flicking switch on -->
+  <Flick.gerund>an/aus bei</Flick.gerund>
+  <!-- EN: flick switch on -->
+  <Flick.verb>an/aus bei</Flick.verb>
+  
+  <!-- EN: harvest crops -->
+  <GrowerHarvest.label>Pflanzen ernten</GrowerHarvest.label>
+  <!-- EN: harvesting -->
+  <GrowerHarvest.gerund>ernten</GrowerHarvest.gerund>
+  <!-- EN: harvest -->
+  <GrowerHarvest.verb>ernte</GrowerHarvest.verb>
+  
+  <!-- EN: sow crops -->
+  <GrowerSow.label>Pflanzen säen</GrowerSow.label>
+  <!-- EN: sowing -->
+  <GrowerSow.gerund>besäen</GrowerSow.gerund>
+  <!-- EN: sow -->
+  <GrowerSow.verb>besäen</GrowerSow.verb>
+  
+  <!-- EN: feed animals -->
+  <HandlingFeedPatientAnimals.label>füttere Tiere</HandlingFeedPatientAnimals.label>
+  <!-- EN: feeding -->
+  <HandlingFeedPatientAnimals.gerund>füttern</HandlingFeedPatientAnimals.gerund>
+  <!-- EN: feed -->
+  <HandlingFeedPatientAnimals.verb>füttere</HandlingFeedPatientAnimals.verb>
+  
+  <!-- EN: haul corpses -->
+  <HaulCorpses.label>transportiere Leichen</HaulCorpses.label>
+  <!-- EN: hauling -->
+  <HaulCorpses.gerund>transportiere</HaulCorpses.gerund>
+  <!-- EN: haul -->
+  <HaulCorpses.verb>transportiere</HaulCorpses.verb>
+  
+  <!-- EN: haul general things -->
+  <HaulGeneral.label>trage generelle Objekte</HaulGeneral.label>
+  <!-- EN: hauling -->
+  <HaulGeneral.gerund>trage</HaulGeneral.gerund>
+  <!-- EN: haul -->
+  <HaulGeneral.verb>trage</HaulGeneral.verb>
+  
+  <!-- EN: merge things -->
+  <HaulMerge.label>mache Objekte kompakt</HaulMerge.label>
+  <!-- EN: merging -->
+  <HaulMerge.gerund>kompakt machen</HaulMerge.gerund>
+  <!-- EN: merge -->
+  <HaulMerge.verb>kompakt machen</HaulMerge.verb>
+  
+  <!-- EN: load caravan -->
+  <HelpGatheringItemsForCaravan.label>Karawane beladen</HelpGatheringItemsForCaravan.label>
+  <!-- EN: loading -->
+  <HelpGatheringItemsForCaravan.gerund>beladen</HelpGatheringItemsForCaravan.gerund>
+  <!-- EN: load -->
+  <HelpGatheringItemsForCaravan.verb>belade</HelpGatheringItemsForCaravan.verb>
+  
+  <!-- EN: hunt -->
+  <HunterHunt.label>jagen</HunterHunt.label>
+  <!-- EN: hunting -->
+  <HunterHunt.gerund>jagen</HunterHunt.gerund>
+  <!-- EN: hunt -->
+  <HunterHunt.verb>jage</HunterHunt.verb>
+  
+  <!-- EN: load transporters -->
+  <LoadTransporters.label>Transporter beladen</LoadTransporters.label>
+  <!-- EN: loading -->
+  <LoadTransporters.gerund>beladen</LoadTransporters.gerund>
+  <!-- EN: load -->
+  <LoadTransporters.verb>belade</LoadTransporters.verb>
+  
+  <!-- EN: milk animals -->
+  <Milk.label>Tiere melken</Milk.label>
+  <!-- EN: milking -->
+  <Milk.gerund>melken</Milk.gerund>
+  <!-- EN: milk -->
+  <Milk.verb>melke</Milk.verb>
+  
+  <!-- EN: mine -->
+  <Mine.label>Steine bearbeiten</Mine.label>
+  <!-- EN: mining -->
+  <Mine.gerund>Steine bearbeiten</Mine.gerund>
+  <!-- EN: mine -->
+  <Mine.verb>bearbeite Steine</Mine.verb>
+  
+  <!-- EN: open containers -->
+  <Open.label>Gebinde öffnen</Open.label>
+  <!-- EN: opening -->
+  <Open.gerund>öffnen</Open.gerund>
+  <!-- EN: open -->
+  <Open.verb>öffne</Open.verb>
+  
+  <!-- EN: go to bed for emergency treatment -->
+  <PatientGoToBedEmergencyTreatment.label>gehe für Notpflege ins Bett</PatientGoToBedEmergencyTreatment.label>
+  <!-- EN: receiving treatment in -->
+  <PatientGoToBedEmergencyTreatment.gerund>Pflege bekommen bei</PatientGoToBedEmergencyTreatment.gerund>
+  <!-- EN: receive treatment in -->
+  <PatientGoToBedEmergencyTreatment.verb>Pflege bekommen bei</PatientGoToBedEmergencyTreatment.verb>
+  
+  <!-- EN: recuperate in bed -->
+  <PatientGoToBedRecuperate.label>im Bett regenerieren</PatientGoToBedRecuperate.label>
+  <!-- EN: getting bed rest in -->
+  <PatientGoToBedRecuperate.gerund>Bettruhe in</PatientGoToBedRecuperate.gerund>
+  <!-- EN: get bed rest in -->
+  <PatientGoToBedRecuperate.verb>ruhe in</PatientGoToBedRecuperate.verb>
+  
+  <!-- EN: go to bed for treatment -->
+  <PatientGoToBedTreatment.label>Gehe für Pflege ins Bett</PatientGoToBedTreatment.label>
+  <!-- EN: receiving treatment in -->
+  <PatientGoToBedTreatment.gerund>Pflege bekommen bei</PatientGoToBedTreatment.gerund>
+  <!-- EN: receive treatment in -->
+  <PatientGoToBedTreatment.verb>Bekomme Pflege bei</PatientGoToBedTreatment.verb>
+  
+  <!-- EN: cut plants -->
+  <PlantsCut.label>Pflanzen schneiden</PlantsCut.label>
+  <!-- EN: cutting -->
+  <PlantsCut.gerund>schneiden</PlantsCut.gerund>
+  <!-- EN: cut -->
+  <PlantsCut.verb>schneide</PlantsCut.verb>
+  
+  <!-- EN: rearm turrets -->
+  <RearmTurrets.label>Geschütz neu laden</RearmTurrets.label>
+  <!-- EN: rearming -->
+  <RearmTurrets.gerund>neu laden</RearmTurrets.gerund>
+  <!-- EN: rearm -->
+  <RearmTurrets.verb>lade neu</RearmTurrets.verb>
+  
+  <!-- EN: refuel fuelable buildings -->
+  <Refuel.label>befülle Objekte</Refuel.label>
+  <!-- EN: refueling -->
+  <Refuel.gerund>befüllen</Refuel.gerund>
+  <!-- EN: refuel -->
+  <Refuel.verb>befülle</Refuel.verb>
+  
+  <!-- EN: release prisoners -->
+  <ReleasePrisoner.label>Gefangene freigeben</ReleasePrisoner.label>
+  <!-- EN: releasing -->
+  <ReleasePrisoner.gerund>freigeben</ReleasePrisoner.gerund>
+  <!-- EN: release -->
+  <ReleasePrisoner.verb>gib frei</ReleasePrisoner.verb>
+  
+  <!-- EN: remove roofs -->
+  <RemoveRoofs.label>Dächer demontieren</RemoveRoofs.label>
+  <!-- EN: removing roof -->
+  <RemoveRoofs.gerund>Dach demontieren</RemoveRoofs.gerund>
+  <!-- EN: remove roof -->
+  <RemoveRoofs.verb>demontiere Dach</RemoveRoofs.verb>
+  
+  <!-- EN: repair damaged things -->
+  <Repair.label>repariere beschädigte Objekte</Repair.label>
+  <!-- EN: repairing -->
+  <Repair.gerund>reparieren</Repair.gerund>
+  <!-- EN: repair -->
+  <Repair.verb>repariere</Repair.verb>
+  
+  <!-- EN: do research -->
+  <Research.label>forschen</Research.label>
+  <!-- EN: researching at -->
+  <Research.gerund>forschen bei</Research.gerund>
+  <!-- EN: research -->
+  <Research.verb>forschen</Research.verb>
+  
+  <!-- EN: operate scanner -->
+  <Scan.label>Scanner steuern</Scan.label>
+  <!-- EN: scanning at -->
+  <Scan.gerund>scannen bei</Scan.gerund>
+  <!-- EN: scan -->
+  <Scan.verb>scannen</Scan.verb>
+  
+  <!-- EN: shear animals -->
+  <Shear.label>Tiere scheren</Shear.label>
+  <!-- EN: shearing -->
+  <Shear.gerund>scheren</Shear.gerund>
+  <!-- EN: shear -->
+  <Shear.verb>scheren</Shear.verb>
+  
+  <!-- EN: slaughter animals -->
+  <Slaughter.label>Tiere schlachten</Slaughter.label>
+  <!-- EN: slaughtering -->
+  <Slaughter.gerund>schlachten</Slaughter.gerund>
+  <!-- EN: slaughter -->
+  <Slaughter.verb>schlachten</Slaughter.verb>
+  
+  <!-- EN: strip corpses -->
+  <Strip.label>Leichen Klamotten runter</Strip.label>
+  <!-- EN: stripping -->
+  <Strip.gerund>Klamotten runter bei</Strip.gerund>
+  <!-- EN: strip -->
+  <Strip.verb>Klamotten runter</Strip.verb>
+  
+  <!-- EN: take beer out of fermenting barrels -->
+  <TakeBeerOutOfFermentingBarrel.label>Bier von Fermentierfass schöpfen</TakeBeerOutOfFermentingBarrel.label>
+  <!-- EN: taking beer from -->
+  <TakeBeerOutOfFermentingBarrel.gerund>schöpfe Bier von</TakeBeerOutOfFermentingBarrel.gerund>
+  <!-- EN: take beer -->
+  <TakeBeerOutOfFermentingBarrel.verb>schöpfe Bier</TakeBeerOutOfFermentingBarrel.verb>
+  
+  <!-- EN: take prisoners to bed -->
+  <TakePrisonerToBed.label>bring Gefangene ans Bett</TakePrisonerToBed.label>
+  <!-- EN: taking to bed -->
+  <TakePrisonerToBed.gerund>ans Bett bringen</TakePrisonerToBed.gerund>
+  <!-- EN: take to bed -->
+  <TakePrisonerToBed.verb>ans Bett bringen</TakePrisonerToBed.verb>
+  
+  <!-- EN: take patients to bed for operations -->
+  <TakeToBedToOperate.label>Pflegebedürftige für Operation ans Bett bringen</TakeToBedToOperate.label>
+  <!-- EN: taking to operate -->
+  <TakeToBedToOperate.gerund>an Operationort bringen</TakeToBedToOperate.gerund>
+  <!-- EN: take to operate -->
+  <TakeToBedToOperate.verb>bring an Operationort</TakeToBedToOperate.verb>
+  
+  <!-- EN: tame animals -->
+  <Tame.label>Tiere zähmen</Tame.label>
+  <!-- EN: taming -->
+  <Tame.gerund>zähmen</Tame.gerund>
+  <!-- EN: tame -->
+  <Tame.verb>zähmen</Tame.verb>
+  
+  <!-- EN: train animals -->
+  <Train.label>Tiere trainieren</Train.label>
+  <!-- EN: training -->
+  <Train.gerund>trainieren</Train.gerund>
+  <!-- EN: train -->
+  <Train.verb>trainieren</Train.verb>
+  
+  <!-- EN: uninstall structures -->
+  <Uninstall.label>Strukturen demontieren</Uninstall.label>
+  <!-- EN: uninstalling -->
+  <Uninstall.gerund>demontieren</Uninstall.gerund>
+  <!-- EN: uninstall -->
+  <Uninstall.verb>demontiere</Uninstall.verb>
+  
+  <!-- EN: unload carriers -->
+  <UnloadCarriers.label>Träger leeren</UnloadCarriers.label>
+  <!-- EN: unloading -->
+  <UnloadCarriers.gerund>leeren</UnloadCarriers.gerund>
+  <!-- EN: unload -->
+  <UnloadCarriers.verb>leere</UnloadCarriers.verb>
+  
+  <!-- EN: visit sick people -->
+  <VisitSickPawn.label>Interaktion mit kranken Pflegebedürftigen</VisitSickPawn.label>
+  <!-- EN: visiting -->
+  <VisitSickPawn.gerund>Interaktion mit</VisitSickPawn.gerund>
+  <!-- EN: visit -->
+  <VisitSickPawn.verb>interagiere mit</VisitSickPawn.verb>
+  
+</LanguageData>

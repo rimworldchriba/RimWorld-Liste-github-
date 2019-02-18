@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: allow colonist corpses -->
+  <AllowCorpsesColonist.label>Erlaube Kolonist Leichen</AllowCorpsesColonist.label>
+  <!-- EN: Allow the dead bodies of colonists. -->
+  <AllowCorpsesColonist.description>Erlaubt für tote Kolonist Körper.</AllowCorpsesColonist.description>
+  
+  <!-- EN: allow stranger corpses -->
+  <AllowCorpsesStranger.label>Erlaube fremde Kolonist Leichen</AllowCorpsesStranger.label>
+  <!-- EN: Allow the dead bodies of strangers and enemies. -->
+  <AllowCorpsesStranger.description>Erlaubt für fremde, tote Kolonist Körper.</AllowCorpsesStranger.description>
+  
+  <!-- EN: allow tainted apparel -->
+  <AllowDeadmansApparel.label>Erlaube unreine Kleidung</AllowDeadmansApparel.label>
+  <!-- EN: Allow clothing that was once worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
+  <AllowDeadmansApparel.description>Erlaubt Kleidung, die von Leiche getragen worden ist. Die meisten Charaktere nehmen Kleidung von Leichen nicht an.</AllowDeadmansApparel.description>
+  
+  <!-- EN: allow fresh -->
+  <AllowFresh.label>Erlaube Frisches</AllowFresh.label>
+  <!-- EN: Allow organic things which haven't started to rot yet. -->
+  <AllowFresh.description>Erlaubt organische Materialien, bei denen der Verrottungprozess nicht begonnen hat.</AllowFresh.description>
+  
+  <!-- EN: allow clean apparel -->
+  <AllowNonDeadmansApparel.label>Erlaube saubere Kleidung</AllowNonDeadmansApparel.label>
+  <!-- EN: Allow clothing that was never worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
+  <AllowNonDeadmansApparel.description>Erlaubt Kleidung, die nicht von Leichen getragen worden ist. Die meisten Charaktere nehmen Kleidung von Leichen nicht an.</AllowNonDeadmansApparel.description>
+  
+  <!-- EN: allow non-smeltable -->
+  <AllowNonSmeltableWeapons.label>Erlaube nicht-schmelzbares</AllowNonSmeltableWeapons.label>
+  <AllowNonSmeltableWeapons.description>Erlaubt Waffen, die nicht einschmelzbar sind.</AllowNonSmeltableWeapons.description>
+  
+  <!-- EN: allow plant food -->
+  <AllowPlantFood.label>Erlaube Futterpflanzen</AllowPlantFood.label>
+  <!-- EN: Allow foods that are of quality equivalent to unharvested plants, like hay. -->
+  <AllowPlantFood.description>Erlaubt Nahrung, die dieselbe Qualität nicht ernteter Pflanzen aufweien. Z.B. Heu.</AllowPlantFood.description>
+  
+  <!-- EN: allow rotten -->
+  <AllowRotten.label>Erlaube Verrottendes</AllowRotten.label>
+  <!-- EN: Allow organic things which have started to rot. -->
+  <AllowRotten.description>Erlaubt organische Materialien, die Verrottung aufweisen.</AllowRotten.description>
+  
+  <!-- EN: allow smeltable -->
+  <AllowSmeltable.label>Erlaube schmelzbares</AllowSmeltable.label>
+  <AllowSmeltable.description>Erlaubt Objekte, die für Einschmelzen bereit sind.</AllowSmeltable.description>
+  
+</LanguageData>

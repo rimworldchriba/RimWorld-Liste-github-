@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: tropical rainforest -->
+  <TropicalRainforest.label>Tropischer Regenwald</TropicalRainforest.label>
+  <!-- EN: A thick, moist jungle, buzzing with animal life and infested with disease. Despite its visual beauty, this is a very dangerous biome. Choking overgrowth, aggressive animals, and constant sickness are why some explorers call this the "green hell". -->
+  <TropicalRainforest.description>Stark bewachsener, feuchter Dschungel mit artenreicher Tierwelt und vielen Krankheiten. Schöne Landschaft, allerdings sehr gefährliches Biom. Hohe Pflanzendichte, aggressive Tierwelt wie ebenso laufend Krankheiten sind der Grund, weswegen die Landschaft bei einigen Forscher ebeno die 'Grüne Hölle' ist.</TropicalRainforest.description>
+  
+  <!-- EN: tropical swamp -->
+  <TropicalSwamp.label>Tropischer Sumpf</TropicalSwamp.label>
+  <!-- EN: A plant-choked, steamy swamp seething with parasites and pathogens. Much of the land is too marshy to build on. Difficult movement, aggressive animals, and rampant disease make living here a nightmare. -->
+  <TropicalSwamp.description>Von Pflanzen bewucherter, schwül-heißer Sumpf, voll mit Parasiten und Krankheiterreger. Aufgrund flächenmäßig großer sumpfiger Landschaftbereiche ist Bauen unmöglich. Langsame Bewegung, aggressive Tiere und viele Krankheiten machen das Leben hier schwierig.</TropicalSwamp.description>
+  
+</LanguageData>

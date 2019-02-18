@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Confirm -->
+  <Confirm>Bestätigen</Confirm>
+  <!-- EN: Go back -->
+  <GoBack>Zurück</GoBack>
+  <!-- EN: OK -->
+  <OK>OK</OK>
+  <!-- EN: Close -->
+  <Close>Schließen</Close>
+  
+  <!-- Game updated to new version -->
+  <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
+  <GameUpdatedToNewVersionInitial>RimWorld: alte Version {0}  neue Version {1} .Aktualisiert.</GameUpdatedToNewVersionInitial>
+  <!-- EN: This may cause saved games and mods from the old version to stop working. -->
+  <GameUpdatedToNewVersionSavesIncompatible>Das kann dort hin führen, daß Spielstände und Mods von alter Version nicht weiter funktionieren.</GameUpdatedToNewVersionSavesIncompatible>
+  <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
+  <GameUpdatedToNewVersionSavesCompatible>Spielstände, vorhergehender Version sollten kompatibel arbeiten, einige Mods können eventuell nicht weiter funktionieren.</GameUpdatedToNewVersionSavesCompatible>
+  <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
+  <GameUpdatedToNewVersionNonSteam>Das ist die DRM-freie Version, deswegen kannst Du das Spiel in zwei nicht beschriftungähnliche Ordner installieren, und so alte und neue Version spielen.</GameUpdatedToNewVersionNonSteam>
+  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu.\n\nOld versions will be likely removed from this list eventually - we just didn't want to cut off games in progress.\n\nNote that if mod authors update their mods for a new game version, they'll probably stop working on an old version. You may want to turn off automatic updates to prevent this. -->
+  <GameUpdatedToNewVersionSteam>Wenn Du mit alter Version weiterspielen möchtest, kannst Du das mit  'Betas'-Feature von Steam machen.\n\n  1. Sehe in Deiner Steam-Bibliothek und klicke mit der rechten Maustaste auf 'RimWorld'.\n  2. Klicke auf Eigenschaften.\n  3. Klicke auf Reiter 'Betas'.\n  4. Wähle Wahl Version.\n\nAlte Versionen werden gelöscht - wir wollen es Dir möglich machen ein laufendes Spiel bis Ende spielen.\n\nAchtung: Wenn Mod-Autoren Mods auf neue Version aktualisieren, werden Mods eventuell mit alter Version nicht weiter funktionieren. Wenn Du mit Mod spielen willst, solltest du automatische Aktualisierung ausschalten.</GameUpdatedToNewVersionSteam>
+  
+  <!-- Recovered from errors caused by mods -->
+  <!-- EN: Recovered from incompatible or corrupted mods errors -->
+  <RecoveredFromErrorsDialogTitle>Spiel aufgrund von Fehlern durch inkompatible oder korrupte Mods wiederhergestellt</RecoveredFromErrorsDialogTitle>
+  <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
+  <RecoveredFromErrorsText>Eventuell machen das einige Mods Fehler.\n\nSie waren inkompatibel, endwickelt für andere RimWorld-Version oder beschädigt.\n\nAlle Mods sind deaktiviert, können allerdings im Mod-Dialog aktiviert werden.</RecoveredFromErrorsText>
+  
+  <!-- Errors during loading -->
+  <!-- EN: Error while loading assets -->
+  <ErrorWhileLoadingAssetsTitle>Fehler beim Laden von Komponenten</ErrorWhileLoadingAssetsTitle>
+  <!-- EN: An error occurred while loading game assets. See error log for more information. -->
+  <ErrorWhileLoadingAssets>Beim Laden von Spielkomponenten hat sich ein Fehler endwickelt. Siehe Logfile für weitere Informationen.</ErrorWhileLoadingAssets>
+  <!-- EN: The game is currently running with custom mods - they may or may not cause these problems. -->
+  <ErrorWhileLoadingAssets_ModsInfo>Das Spiel läuft aktuell mit Modifikationen - eventuell ist das Ursache vom Problems.</ErrorWhileLoadingAssets_ModsInfo>
+  <!-- EN: Error while generating a map -->
+  <ErrorWhileGeneratingMapTitle>Fehler bei Kartengenerierung</ErrorWhileGeneratingMapTitle>
+  <!-- EN: An error occurred while generating a new map. See error log for more information. -->
+  <ErrorWhileGeneratingMap>Beim Generieren von neuer Karte hat sich ein Fehler endwickelt. Siehe Logfile für weitere Informationen.</ErrorWhileGeneratingMap>
+  <!-- EN: Error while loading a map -->
+  <ErrorWhileLoadingMapTitle>Fehler beim Laden von Karte</ErrorWhileLoadingMapTitle>
+  <!-- EN: An error occurred while loading a map. See error log for more information. -->
+  <ErrorWhileLoadingMap>Beim Laden von Karte hat sich ein Fehler endwickelt. Siehe Logfile für weitere Informationen.</ErrorWhileLoadingMap>
+  
+  <!-- Unloaded mod with an assembly -->
+  <!-- EN: The mod list has changed. The game will now restart automatically. -->
+  <ModsChanged>Mod-Liste Änderung analysiert. Spiel startet augenblicklich automatisch neu.</ModsChanged>
+  <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
+  <FailedToRestart>Beim Neustart vom Spiel hat sich ein Problem endwickelt. Das Spiel kann den Code von Modifikation nicht komplett stoppen, weswegen die Möglichkeit besteht, dass der Mod-Code aktuell aktiv ist.\n\nFür sauberes Laden aller Mods, wird empfohlen das Spiel neu starten.</FailedToRestart>
+  <!-- EN: Restarting -->
+  <Restarting>Neustart</Restarting>
+  
+  <!-- Missing Steam -->
+  <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
+  <SteamClientMissing>Kann Steam API nicht initialisieren. Mögliche Ursachen:\n\n-Steam läuft nicht.\n-Start wahr Steam-extern, ohne steam_appid.txt .\n-Start wahr mit unterschiedlicher Steam-Client Berechtigung (z.B. "als Administrator").\n\nIn meisten Situationen hilft es, für Problembehebung Computer/Mac neu starten\n\nDu kannst spielen, allerdings werden keine Steam-Statistiken gespeichert und Steam-Funktionen sind nicht bereit.</SteamClientMissing>
+  
+  <!-- Long events -->
+  <!-- EN: Initializing interface -->
+  <InitializingInterface>Initialisiere Oberfläche</InitializingInterface>
+  <!-- EN: Unloading unused assets -->
+  <UnloadingUnusedAssets>Lösche unbenutzte Komponenten</UnloadingUnusedAssets>
+  <!-- EN: Loading all active mods -->
+  <LoadingAllActiveMods>Lade jede aktive Modifikation</LoadingAllActiveMods>
+  <!-- EN: Loading defs -->
+  <LoadingDefs>Lade Defs</LoadingDefs>
+  <!-- EN: Loading assets -->
+  <LoadingAssets>Lade Komponenten</LoadingAssets>
+  <!-- EN: Initializing -->
+  <Initializing>Initialisiere</Initializing>
+  <!-- EN: Loading world -->
+  <LoadingWorld>Lade Welt</LoadingWorld>
+  <!-- EN: Loading map -->
+  <LoadingMap>Lade Karte</LoadingMap>
+  <!-- EN: Initializing game -->
+  <InitializingGame>Initialisiere Spiel</InitializingGame>
+  <!-- EN: Spawning things -->
+  <SpawningAllThings>Generiere Objekte</SpawningAllThings>
+  <!-- EN: Spawning colonists -->
+  <SpawningColonists>Generiere Kolonisten</SpawningColonists>
+  
+  <!-- Save/load -->
+  <!-- EN: Save -->
+  <SaveGameButton>Speichern</SaveGameButton>
+  <!-- EN: Load -->
+  <LoadGameButton>Laden</LoadGameButton>
+  <!-- EN: Overwrite -->
+  <OverwriteButton>Überschreiben</OverwriteButton>
+  <!-- EN: Really delete {0}? -->
+  <ConfirmDelete>Willst Du '{0}' wirklich löschen?</ConfirmDelete>
+  <!-- EN: Delete this savegame. -->
+  <DeleteThisSavegame>Lösche diesen Spielstand.</DeleteThisSavegame>
+  <!-- EN: Saved as {0}. -->
+  <SavedAs>Spiel als '{0}' gespeichert.</SavedAs>
+  <!-- EN: Please enter a name. -->
+  <NeedAName>Bitte Namen eingeben.</NeedAName>
+  <!-- EN: Loading -->
+  <LoadingLongEvent>Lade</LoadingLongEvent>
+  <!-- EN: Saving -->
+  <SavingLongEvent>Speichere</SavingLongEvent>
+  <!-- EN: (Permadeath) -->
+  <PermadeathModeSaveSuffix>(Hardcore)</PermadeathModeSaveSuffix>
+  <!-- EN: We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work. -->
+  <SaveIsFromDifferentGameVersion>Aktuelle Version {0} weicht von benutzter Spielstandversion {1} ab.\n\nVersuche, diesen Spielstand laden, kann Richtung unerwartete Ergebnisse führen.</SaveIsFromDifferentGameVersion>
+  <!-- EN: We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work. -->
+  <SaveIsFromDifferentGameBuild>Aktuelle Version {0} weicht geringfügig von benutzter Spielstandversion {1}  ab.\n\nVersuche, diesen Spielstand laden, sollten ohne Probleme funktionieren.</SaveIsFromDifferentGameBuild>
+  <!-- EN: Save data was saved with our game version and should work without issue. -->
+  <SaveIsFromThisGameBuild>Spielstand ist mit gleicher Version erstellt und sollte ohne Probleme funktionieren.</SaveIsFromThisGameBuild>
+  <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
+  <SaveIsUnknownFormat>Spielstand ist in unbekanntem Format. Große Gefahr, dass Spielstand nicht richtig geladen werden kann.</SaveIsUnknownFormat>
+  <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
+  <ProblemSavingFile>Beim Speichern der Datei '{0}' hat sich ein Fehler endwickelt:\n\n{1}\n\nSiehe Error Log , für weitere Informationen.</ProblemSavingFile>
+  <!-- EN: Load anyway -->
+  <LoadAnyway>Trotzdem laden</LoadAnyway>
+  <!-- EN: Load mod list from save -->
+  <ChangeLoadedMods>Lade Mod-Liste \nvom Spielstand</ChangeLoadedMods>
+  <!-- EN: Some mods are unavailable, and need to be installed -->
+  <MissingMods>Einige Mods sind nicht bereit, Installation notwendig.</MissingMods>
+  
+  <!-- Player faction naming -->
+  <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
+  <NamePlayerFactionMessage>... wie es sich anfühlt, bleibt ihr eine Weile ... . So sagt {0} , daß ihr dieser Gemeinschaft einen Namen geben dürft.\nWie darf sie benannt werden?</NamePlayerFactionMessage>
+  <!-- EN: Your faction is now known as {0}. -->
+  <PlayerFactionGainsName>Gemeinschaft heißt jetzt {0}.</PlayerFactionGainsName>
+  <!-- EN: That name isn't valid. -->
+  <PlayerFactionNameIsInvalid>Dieser Name ist ungültig.</PlayerFactionNameIsInvalid>
+
+  <!-- Player faction base naming -->
+  <!-- EN: {0} thinks that you should give this settlement a name. What should the local settlement be called? -->
+  <NamePlayerFactionBaseMessage> {0} sagt, dass ihr dieser Siedlung einen Namen geben dürft.\nWie darf diese Siedlung heißen?</NamePlayerFactionBaseMessage>
+  <!-- EN: This community is now known as {0}. -->
+  <PlayerFactionBaseGainsName>Eure Gemeinschaft heißt jetzt {0}.</PlayerFactionBaseGainsName>
+  <!-- EN: That name isn't valid. -->
+  <PlayerFactionBaseNameIsInvalid>Dieser Name ist ungültig.</PlayerFactionBaseNameIsInvalid>
+  
+  <!-- Player faction and faction base naming -->
+  <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>Weiter spricht {0}, daß diese Siedlung einen Namen bekommen darf.\nWie darf diese Siedlung heißen?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
+  <PlayerFactionAndBaseGainsName>Eure Gemeinschaft heißt jetzt {0} und dieser Ort wird {1} genannt.</PlayerFactionAndBaseGainsName>
+  
+  <!-- Renaming -->
+  <!-- EN: Please enter a valid name. -->
+  <NameIsInvalid>Bitte gib gültigen Namen ein.</NameIsInvalid>
+  <!-- EN: Name is already in use. -->
+  <NameIsInUse>Dieser Name wird benutzt, bitte anderen.</NameIsInUse>
+  <!-- EN: The zone is now called {0}. -->
+  <ZoneGainsName>Die Zone heißt jetzt '{0}'.</ZoneGainsName>
+  
+  <!-- Pawn naming -->
+  <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
+  <PawnGainsName>Dieser Charakter hört augenblicklich bei Spitznamen '{0}'. {PAWN_possessive}e Spitzname ist {PAWN_title}.</PawnGainsName>
+  <!-- EN: The animal's name is now {0}. -->
+  <AnimalGainsName>Tier hört augenblicklich beim Rufen von '{0}'.</AnimalGainsName>
+
+  <!-- Save game incompatible warning -->
+  <!-- EN: Version mismatch -->
+  <VersionMismatch>Versionkonflikt</VersionMismatch>
+  <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
+  <SaveGameIncompatibleWarningText>Spiel basiert auf Version {0}\nAktuell läuft Spielversion {1}\n\nUrsache von Fehler oder Abstürze kann vom Laden dieser Karte her kommen.</SaveGameIncompatibleWarningText>
+  <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
+  <WorldFileVersionMismatch>Welt basiert auf Spielversion {0}\nAktuell läuft Spielversion {1}\n\n Laden von Welt kann Fehler oder Abstürze verursachen. Empfehlung: Komplett neue Welt generieren.</WorldFileVersionMismatch>
+  <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
+  <FileIncompatibleWarning>Datei wurde mit der Version {0} gespeichert.\nAktuell läuft Spielversion {1}\n\nLaden vom Spielstandes kann Fehler oder Abstürze verursachen.</FileIncompatibleWarning>
+  <!-- EN: Mods mismatch -->
+  <ModsMismatchWarningTitle>Modifikationkonflikt</ModsMismatchWarningTitle>
+  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
+  <ModsMismatchWarningText>Benutzte Mods in diesem Spielstand unterscheiden sich von aktuell aktiven Mods. So wie Funktion dieser Mods, kann das in Richtung Probleme führen.\n\nDieses Spiel nutzte in letzter Aktivität folgende Mods (in dieser Reihenfolge):\n\n{0}\n\nAktuell sind allerdings folgende aktiv:\n\n{1}</ModsMismatchWarningText>
+
+  <!-- Resolution change dialog -->
+  <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
+  <ConfirmResolutionChange>Änerung Monitoreinstellungen analysiert. Mit Änderungen weiter?\n\nAutomatisches Zurücksetzen in {0}...</ConfirmResolutionChange>
+  <!-- EN: Keep -->
+  <ResolutionKeep>Behalten</ResolutionKeep>
+  <!-- EN: Revert -->
+  <ResolutionRevert>Zurücksetzen</ResolutionRevert>
+
+  <!-- Confirm permanently disable dev mode -->
+  <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
+  <ConfirmPermanentlyDisableDevMode>Entwicklungsmodus für diesen Computer/Mac wirklich permanent deaktivieren?\n\nDiese Option ist für Spieler, die pures Spielvergnügen wollen, ohne Vorteilbeschaffung durch Endwicklungwerkzeuge.\n\nEndwicklungmodus kann durch manuelle Konfigurationfile Änderung reaktiviert werden. Im Internet gibts hierfür weitere Information.</ConfirmPermanentlyDisableDevMode>
+
+  <!-- Research -->
+  <!-- EN: Research -->
+  <Research>Forschung</Research>
+  <!-- EN: Researched -->
+  <Researched>Forschung mit Gebnis</Researched>
+  <!-- EN: Unresearched -->
+  <Unresearched>Forschung ohne Gebnis</Unresearched>
+  <!-- EN: Finished -->
+  <Finished>Fertig</Finished>
+  <!-- EN: In Progress -->
+  <InProgress>Forschung aktiv</InProgress>
+  <!-- EN: Locked -->
+  <Locked>Gesperrt</Locked>
+  <!-- EN: Until you build a RESEARCH BENCH, your colonists will not actually be able to do research.\n\nHowever, you can still look at research projects now. -->
+  <ResearchMenuWithoutBench>Soweit kein LABORTISCH steht, werden Kolonisten nicht forschen können.\n\nTrotzdem kannst Du Dir Möglichkeiten für Projekte bevor ansehen.</ResearchMenuWithoutBench>
+  <!-- EN: Research prerequisites -->
+  <ResearchPrerequisites>Forschung notwendig</ResearchPrerequisites>
+  <!-- EN: Required research bench -->
+  <RequiredResearchBench>Labortisch notwendig</RequiredResearchBench>
+  <!-- EN: Required research bench facilities -->
+  <RequiredResearchBenchFacilities>Laborequipment notwendig</RequiredResearchBenchFacilities>
+  
+  <!-- Advanced game start options -->
+  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
+  <MapTemperatureDangerWarning>Warnung: Du wirst in winterlichem Umfeld landen. Es wird hart bis unmöglich, hier überleben. Tendierst du hinsichtlich Endscheidung nicht für Herausforderungen, wähle anderen Landeplatz oder wärmeren Monat.</MapTemperatureDangerWarning>
+  <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
+  <MapSizePerformanceWarning>Spiel ist für mittelgroße Karten konzipiert. Mittelgroße Karten generieren für reibungfreies Kreiren richtigen Freiraum!\n\nGroße Karten reduzieren Leistung - ebenso wird das Spielkonzept zerstört. KI wird nicht Spielspaß förderliche Endscheidungen endscheiden und Spiel-Balance wird negativ beeinflusst. Diese Kartengrößen sind ausschließlich aufgrund Tradition und fürs Tests. Empfehlung: Bitte nutze richtige Kartengröße, wenn es keinen speziellen Grund für die Endscheidung für große Karten gibt.</MapSizePerformanceWarning>
+  <!-- EN: Map size -->
+  <MapSize>Kartengröße</MapSize>
+  <!-- EN: {0}x{0} ({1} cells) -->
+  <MapSizeDesc>{0}x{0} ({1} Felder)</MapSizeDesc>
+  <!-- EN: Small -->
+  <MapSizeSmall>Klein</MapSizeSmall>
+  <!-- EN: Medium -->
+  <MapSizeMedium>Mittel</MapSizeMedium>
+  <!-- EN: Large -->
+  <MapSizeLarge>Groß</MapSizeLarge>
+  <!-- EN: Extreme (test) -->
+  <MapSizeExtreme>Riesig (Test)</MapSizeExtreme>
+  <!-- EN: Starting season -->
+  <MapStartSeason>Startjahreszeit:</MapStartSeason>
+  <!-- EN: Auto -->
+  <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
+  <!-- EN: Notice -->
+  <Notice>Hinweis</Notice>
+
+  <!-- Bill config -->
+  <!-- EN: Suspended -->
+  <Suspended>Pausiert</Suspended>
+  <!-- EN: Not suspended -->
+  <NotSuspended>Pausiert nicht</NotSuspended>
+  <!-- EN: SUSPENDED -->
+  <SuspendedAllCaps>PAUSIERT</SuspendedAllCaps>
+  <!-- EN: Repeat: -->
+  <RepeatCount>Nochmal:</RepeatCount>
+  <!-- EN: Forever -->
+  <Forever>Unendlich</Forever>
+  <!-- EN: Details -->
+  <Details>Details</Details>
+  <!-- EN: Ingredient radius -->
+  <IngredientSearchRadius>Materialsuchradius</IngredientSearchRadius>
+  <!-- EN: Currently have -->
+  <CurrentlyHave>Aktuell bereit</CurrentlyHave>
+  <!-- EN: Counting -->
+  <CountingProducts>Zähle</CountingProducts>
+  <!-- EN: Infinite -->
+  <Infinite>Unendlich</Infinite>
+  <!-- EN: Allowed {0} skill: -->
+  <AllowedSkillRange>Erlaubte Stufe ({0}):</AllowedSkillRange>
+  <!-- EN: incompatible -->
+  <IncompatibleLower>inkompatibel</IncompatibleLower>
+  <!-- EN: Any worker -->
+  <AnyWorker>Jeder Arbeiter</AnyWorker>
+  <!-- EN: Unlimited -->
+  <Unlimited>Unbegrenzt</Unlimited>
+  
+  <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
+  <RecipeCannotHaveTargetCount>Aufgabe produziert mehrere oder unvorhersehbare Endprodukte.</RecipeCannotHaveTargetCount>
+  <!-- EN: Work amount -->
+  <WorkAmount>Arbeitaufwand</WorkAmount>
+  <!-- EN: Minimum skills: -->
+  <MinimumSkills>Minimal notwendige Fähigkeiten:</MinimumSkills>
+  <!-- EN: Requires {0} {1} -->
+  <BillRequires>Notwenig {0} {1}</BillRequires>
+  <!-- EN: Requires {0} nutrition -->
+  <BillRequiresNutrition>Notwendig {0} Nahrung</BillRequiresNutrition>
+  <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
+  <BillRequiresMayVary>Hinweis: Bei Materialien mit geringerer Dichte wie Gold ist {0}-mal notwendig.</BillRequiresMayVary>
+  <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
+  <ThisIsSmallVolume>Material mit geringerer Dichte. Beschreibung: Bei Materialien mit geringer Dichte (MageDi) ist jede 'Materialeinheit' 1/{0}, also: Bei (MageDi) ist jede Materialeinheit mit 1 von materialspezifischer Normaldichte Wert bewertet. Für Arbeiten mit selber Materialart geringerer Dichte ist also {0}-mal (MageDi) notwendig, daß der Wert vom Bedarf, kompensiert werden kann.
+  </ThisIsSmallVolume>
+  <!-- EN: ingredients -->
+  <UsableIngredients>Materialien</UsableIngredients>
+  <!-- EN: To {0} -->
+  <BillRepeatTargetCountShort>Bis {0}</BillRepeatTargetCountShort>
+
+  <!-- EN: Pause when satisfied -->
+  <PauseWhenSatisfied>Pausiere, wenns trifft</PauseWhenSatisfied>
+  <!-- EN: Unpause at -->
+  <UnpauseWhenYouHave>Weiter bei</UnpauseWhenYouHave>
+  <!-- EN: Paused -->
+  <Paused>Pausiert</Paused>
+  <!-- EN: Unpause -->
+  <Unpause>Weiter</Unpause>
+
+  <!-- EN: Count equipped -->
+  <IncludeEquipped>Zähle berüstetes</IncludeEquipped>
+  <!-- EN: Count tainted -->
+  <IncludeTainted>Zähle ureines</IncludeTainted>
+  <!-- EN: Only allowed ingredients -->
+  <LimitToAllowedStuff>Ausschließlich erlaubte Beigaben</LimitToAllowedStuff>
+  <!-- EN: Look everywhere -->
+  <IncludeFromAll>Überall suchen</IncludeFromAll>
+  <!-- EN: Look in {0} -->
+  <IncludeSpecific>Suche in {0}</IncludeSpecific>
+  
+  <!-- Info card -->
+  <!-- EN: Damage -->
+  <Damage>Schaden</Damage>
+  <!-- EN: Armor penetration -->
+  <ArmorPenetration>Rüstungdurchdringung</ArmorPenetration>
+  <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
+  <ArmorPenetrationExplanation>Rüstungdurchdringung gibt an, wieviel Rüstungwert diese Waffe bei jedem Treffer durchdringen kann.\n\nIst die Durchdringung höher als der Ziel Rüstungwert, wird so bewertet, daß das Ziel keine Rüstung trägt, Mehrschaden aufgrund höhererm Rüstungdruchdringungwert ist nicht möglich. Ist der Ziel Rüstungwert höher wie Rüstungdruchdringungwert, mindert sich der Rüstungwert durch Rüstungdruchdringungwert aufgrund vom Schaden.</ArmorPenetrationExplanation>
+  <!-- EN: Accuracy -->
+  <Accuracy>Präzision</Accuracy>
+  <!-- EN: Burst shot count -->
+  <BurstShotCount>Schüsse je Salve</BurstShotCount>
+  <!-- EN: Warmup -->
+  <WarmupTime>Fernkampf/Zeit für bereit</WarmupTime>
+  <!-- EN: Melee warmup -->
+  <MeleeWarmupTime>Nahkampf/Zeit für bereit</MeleeWarmupTime>
+  <!-- EN: Cooldown -->
+  <CooldownTime>Regeneration Zeit</CooldownTime>
+  <!-- EN: Fire rate -->
+  <BurstShotFireRate>Schuß Frequenz</BurstShotFireRate>
+  <!-- EN: Range -->
+  <Range>Distanz</Range>
+  <!-- EN: Stopping power -->
+  <StoppingPower>Mannstoppwirkung</StoppingPower>
+  <!-- EN: Hits from this weapon will stagger targets, slowing their movement for several seconds. Targets with a body size larger than the stopping power will be unaffected. -->
+  <StoppingPowerExplanation>Treffer von dieser Waffe wird das Ziel straucheln lassen,  Bewegungsgeschwindigkeit wird so für einige Sekunden reduziert. Keine Beeinflussung, wenn Ziel Körpergröße größer wie  Mannstoppwirkung.</StoppingPowerExplanation>
+  <!-- EN: Direct hit chance -->
+  <DirectHitChance>Chance für direkten Treffer</DirectHitChance>
+  <!-- EN: Miss radius -->
+  <MissRadius>Verschießradius</MissRadius>
+  <!-- EN: Grows wild -->
+  <GrowsWild>Wächst in Wildnis</GrowsWild>
+  <!-- EN: Harvestable -->
+  <Harvestable>Kann man ernten</Harvestable>
+  <!-- EN: Limited lifespan -->
+  <LimitedLifespan>Begrenzte Lebendauer</LimitedLifespan>
+  <!-- EN: Growing time -->
+  <GrowingTime>Wachstumdauer</GrowingTime>
+  <!-- EN: Harvest yield -->
+  <HarvestYield>Ernte Effizienz</HarvestYield>
+  <!-- EN: Min growth temperature -->
+  <MinGrowthTemperature>Min. Wachstumtemperatur</MinGrowthTemperature>
+  <!-- EN: Max growth temperature -->
+  <MaxGrowthTemperature>Max. Wachstumtemperatur</MaxGrowthTemperature>
+  <!-- EN: Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth. -->
+  <GrowingTimeDesc>Pflanzen wachsen ausschließlich bei Helligkeit und in bestimmten Tagesphasen. Statistik gibt Wachstumzeit für erntereife Pflanze an. Reale Wachstumszeit ist normalerweise 2x so lang. Niedrige Temperaturen beeinflussen Wachstum Zeit.</GrowingTimeDesc>
+  <!-- EN: days -->
+  <Days>Tage</Days>
+  <!-- EN: Minimum growing skill to sow -->
+  <MinGrowingSkillToSow>Minimal notwendige Anpflanzerfahrung</MinGrowingSkillToSow>
+  <!-- EN: Fertility requirement -->
+  <FertilityRequirement>Notwendige Fruchtbarkeit</FertilityRequirement>
+  <!-- EN: Fertility sensitivity -->
+  <FertilitySensitivity>Fruchtbarkeit Sensitivität</FertilitySensitivity>
+  <!-- EN: Light requirement -->
+  <LightRequirement>Notwendige Helligkeit</LightRequirement>
+  <!-- EN: Attributes -->
+  <Attributes>Attribute</Attributes>
+  <!-- EN: Lifespan -->
+  <LifeSpan>Lebendauer</LifeSpan>
+  <!-- EN: Nutrition -->
+  <Nutrition>Nährstoffe</Nutrition>
+  <!-- EN: Recreation -->
+  <Joy>Regeneration</Joy>
+  <!-- EN: Food quality -->
+  <FoodQuality>Nahrungqualität</FoodQuality>
+  <!-- EN: Walk speed -->
+  <WalkSpeedProperty>Laufgeschwindigkeit</WalkSpeedProperty>
+  <!-- EN: Min. food quality -->
+  <MinFoodQuality>Min. Nahrungqualität</MinFoodQuality>
+  <!-- EN: Diet -->
+  <Diet>Nahrung</Diet>
+  <!-- EN: Leather type -->
+  <LeatherType>Lederart</LeatherType>
+  <!-- EN: Body size -->
+  <BodySize>Körpergröße</BodySize>
+  <!-- EN: Recruit difficulty -->
+  <RecruitDifficulty>Anwerbe Schwierigkeit Level</RecruitDifficulty>
+  <!-- EN: Base price -->
+  <MarketValue>Grundpreis</MarketValue>
+  <!-- EN: Covers -->
+  <Covers>Deckt</Covers>
+  <!-- EN: Layer -->
+  <Layer>Ebene</Layer>
+  <!-- EN: Cover effectiveness -->
+  <CoverEffectiveness>Deckung Effizienz</CoverEffectiveness>
+  <!-- EN: How effective this is when used as cover in a gunfight. Higher percentages will block more shots. -->
+  <CoverEffectivenessExplanation>Deckung Effizienz von diesem Objekt im Kampf. Höhere Prozentangabe, höher Deckung.</CoverEffectivenessExplanation>
+  <!-- EN: Experience gain factor -->
+  <MedicineXpGainFactor>Erfahrung Faktor</MedicineXpGainFactor>
+  <!-- EN: Mood change -->
+  <MoodChange>Stimmungschwankung</MoodChange>
+  <!-- EN: Wildness -->
+  <Wildness>Wildheit</Wildness>
+  <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
+  <WildnessExplanation>Bei wilde Tiere ist zähmen, trainieren, interagieren von Natur her schwieriger.</WildnessExplanation>
+  <!-- EN: Training decay interval -->
+  <TrainingDecayInterval>Trainingabbau-Interval</TrainingDecayInterval>
+  <!-- EN: Tameness will never decay. -->
+  <TamenessWillNotDecay>Zähmung bleibt unendlich.</TamenessWillNotDecay>
+  <!-- EN: Animal filth rate -->
+  <AnimalFilthRate>Tierschmutzrate</AnimalFilthRate>
+  <!-- EN: Animals produce filth when moving around on constructed floors. This is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth. -->
+  <AnimalFilthRateExplanation>Tiere machen Dreck, beim Drüberlaufen über konstruierte Böden. Visualisierung gibt durchschnittliche Anzahl Dreck je {0} Zelle an.\n\nGrößere und weniger haustier-ähnliche Tiere machen mehr Dreck.</AnimalFilthRateExplanation>
+  <!-- EN: Time -->
+  <TimeRecordsCategory>Zeit</TimeRecordsCategory>
+  <!-- EN: Misc -->
+  <MiscRecordsCategory>Versch.</MiscRecordsCategory>
+  <!-- EN: Addictiveness -->
+  <Addictiveness>Suchtgefahr</Addictiveness>
+  <!-- EN: Pack animal -->
+  <PackAnimal>Lasttier</PackAnimal>
+  <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
+  <PackAnimalExplanation>Tier eignet sich/eignet sich nicht für Karawanentransport mit schwere Lasten und große Distanzen.</PackAnimalExplanation>
+  <!-- EN: Skill -->
+  <Skill>Fähigkeit</Skill>
+  <!-- EN: Success rate multiplier -->
+  <SurgerySuccessChanceFactor>Erfolgsmultiplikator</SurgerySuccessChanceFactor>
+  <!-- EN: Work speed governed by -->
+  <WorkSpeedStat>Arbeitgeschwindigkeit beeinflusst durch</WorkSpeedStat>
+  <!-- EN: Output quantity governed by -->
+  <EfficiencyStat>Produktionmenge beeinflusst durch</EfficiencyStat>
+  <!-- EN: Construction skill required -->
+  <ConstructionSkillRequired>Konstruktionfähigkeit notwendig</ConstructionSkillRequired>
+  <!-- EN: Requires this level of Construction in order to build. -->
+  <ConstructionSkillRequiredExplanation>Für Bau ist diese Konstruktionfähigkeit notwendig.</ConstructionSkillRequiredExplanation>
+  <!-- EN: Nuzzle interval -->
+  <NuzzleInterval>Beschnüffel-Intervall</NuzzleInterval>
+  <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection. Most humans find this cute and it will leave them in a good mood for a period of time. -->
+  <NuzzleIntervalExplanation>Wie oft ein Tier freundliche Kolonisten beschnüffelt werden.\n\nBeschnüffeln tun viele Tierarten, das Tier drückt die Nase oder Schnauze an einen Freund für Aufzeigung Freundschaft. Die meisten Charaktere finden das süß und das macht gute Laune.</NuzzleIntervalExplanation>
+  <!-- EN: Revenge chance on harm -->
+  <HarmedRevengeChance>Wahrscheinlichkeit der Rache bei Verletzung</HarmedRevengeChance>
+  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
+  <HarmedRevengeChanceExplanation>Möglichkeit, dass diese Kreatur sich rächt, bei Schädigung durch Angreifer in Gewehrreichweite.\n\nChance ist größer, je näher der Angreifer. Wird die Kreatur im Nahkampf angegriffen, ist die Möglichkeit dreimal höher.\n\nBei jedem Schaden wird analysiert, folglich werden langsam schießende Waffen mit größerem Schaden seltener Rachemöglichkeit aktivieren.\n\nFür Rachemöglichkeit Minimierung, ist Angriff von Kreaturen von sicherer Distanz mit langsam schießender Waffe Empfehlung.</HarmedRevengeChanceExplanation>
+  <!-- EN: Revenge chance on tame fail -->
+  <TameFailedRevengeChance>Rachemöglichkeit bei Zähmung ohne Gebnis</TameFailedRevengeChance>
+  <!-- EN: Terrain requirement -->
+  <TerrainRequirement>Geländennotwendigkeiten</TerrainRequirement>
+  <!-- EN: Supports -->
+  <Supports>Trägt</Supports>
+  <!-- EN: Trap armor penetration -->
+  <TrapArmorPenetration>Rüstungdurchdringung</TrapArmorPenetration>
+  <!-- EN: Rearm cost -->
+  <RearmCost>Wiederbewaffnungkosten</RearmCost>
+  <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
+  <RearmCostExplanation>Notwendige Ressourcen, für Geschützturm Bereitstellung ( Schwierigkeitsgrad relevant).</RearmCostExplanation>
+  <!-- EN: Shots before rearm -->
+  <ShotsBeforeRearm>Schüsse bis neu beladen</ShotsBeforeRearm>
+  <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
+  <ShotsBeforeRearmExplanation>Wie viele Schüsse dieser Geschützturm feuern kann, bis neu beladen wird.</ShotsBeforeRearmExplanation>
+  <!-- EN: Power consumption -->
+  <PowerConsumption>Strombrauch</PowerConsumption>
+
+  <!-- Trade -->
+  <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
+  <PositiveBuysNegativeSells>Positive Zahl tauschen.\nNegative Zahl tauschen.</PositiveBuysNegativeSells>
+  <!-- EN: Price you pay to buy this. -->
+  <BuyPriceDesc>Silberwert, den man , daß man diese Ware bekommt.</BuyPriceDesc>
+  <!-- EN: Price you receive for selling this. -->
+  <SellPriceDesc>Silberwert, den man bekommt, wenn man diese Ware gibt.</SellPriceDesc>
+  <!-- EN: For this item, this price is {0}. -->
+  <PriceTypeDesc>Wert dieser Ware ist {0}.</PriceTypeDesc>
+  <!-- EN: How many of this item the colony has ready to trade.\n\nYou can only sell items to orbital traders if they are near an orbital trade beacon. -->
+  <ColonyCount>Anzahl Objekte, in Kolonie, für Handel.\n\nDu kannst ausschließlich mit orbitale Händler interagieren, wenn Handelware im Selektionbereich von orbitalem Funkfeuer lagert.</ColonyCount>
+  <!-- EN: How many of this item the trader has to trade. -->
+  <TraderCount>Wie viel der Händler von dieser Ware hat.</TraderCount>
+  <!-- EN: Accept -->
+  <AcceptButton>Annehmen</AcceptButton>
+  <!-- EN: Reset -->
+  <ResetButton>Reset</ResetButton>
+  <!-- EN: Cancel -->
+  <CancelButton>Abbruch</CancelButton>
+  <!-- EN: Close -->
+  <CloseButton>Schließen</CloseButton>
+  <!-- EN: Your tradeable silver: {0} -->
+  <YourTradeableSilver>Silber nutzbar für Handel: {0}</YourTradeableSilver>
+  <!-- EN: You can only trade with silver that is near an orbital trade beacon and not under a roof. -->
+  <YourTradeableSilverTip>Du kannst ausschließlich mit Silber handeln, das in Reichweite vom orbitalen Funkfeuers ist.</YourTradeableSilverTip>
+  <!-- EN: Trader has no more. -->
+  <TraderHasNoMore>Händler hat nichts weiter.</TraderHasNoMore>
+  <!-- EN: No more to sell. -->
+  <ColonyHasNoMore>Nichts weiter für Tausch.</ColonyHasNoMore>
+  <!-- EN: Trader is not willing to buy this. -->
+  <TraderWillNotTrade>Der Händler tauscht mit dieser Ware nicht.</TraderWillNotTrade>
+  <!-- EN: Negotiator -->
+  <Negotiator>Unterhändler</Negotiator>
+  <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
+  <NegotiatorTalkingImpaired>Unterhändler {1_labelShort} kann aufgrund niedrigem Wohlbefinden nicht richtig sprechen.</NegotiatorTalkingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
+  <NegotiatorHearingImpaired>Unterhändler {1_labelShort} kann aufgrund niedrigem Wohlbefinden nicht richtig hören.</NegotiatorHearingImpaired>
+  <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
+  <NegotiatorCapacityImpaired>Das beeinflusst den Handelwert.\n\nEventuell macht es Sinn, einen regenerierteren Unterhändler senden.</NegotiatorCapacityImpaired>
+  <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
+  <ConfirmTraderShortFunds>Händler hat weniger Silber wie notwendig, so kann der Warenwert nicht kompensiert werden. Trotzdem weitermachen?</ConfirmTraderShortFunds>
+  <!-- EN: Sort by -->
+  <SortBy>Sortieren:</SortBy>
+  <!-- EN: trader type -->
+  <TraderTypePrice>Händler Typ</TraderTypePrice>
+  <!-- EN: selling -->
+  <Selling>Silber für Ware</Selling>
+  <!-- EN: buying -->
+  <Buying>Ware für Silber</Buying>
+  <!-- EN: item sell price multiplier -->
+  <ItemSellPriceFactor>Objekt Tauschwert Multiplikator</ItemSellPriceFactor>
+  <!-- EN: difficulty level -->
+  <DifficultyLevel>Schwierigkeit</DifficultyLevel>
+  <!-- EN: global post-process curve -->
+  <PostCurve>Globale Nachbearbeitungkurve</PostCurve>
+  <!-- EN: Your negotiator bonus -->
+  <YourNegotiatorBonus>Handel Bonus</YourNegotiatorBonus>
+  <!-- EN: Trading with faction base bonus -->
+  <TradeWithFactionBaseBonus>Handeln mit Fraktion Grundbonus</TradeWithFactionBaseBonus>
+  <!-- EN: minimum -->
+  <minimum>minimum</minimum>
+  <!-- EN: Final price -->
+  <FinalPrice>Gesamt Tausch Wert</FinalPrice>
+  <!-- EN: Gift mode - offer gifts to {0}. -->
+  <GiftModeTip>Geschenk-Modus - Gib {0} Geschenke.</GiftModeTip>
+  <!-- EN: Return to trade mode. -->
+  <TradeModeTip>Zurück zum Handelmodus.</TradeModeTip>
+
+  <!-- Sellable items -->
+  <!-- EN: Things this trader will buy -->
+  <SellableItemsTitle>Objekte, die dieser Händler für Silber tauschen täte.</SellableItemsTitle>
+  <!-- EN: Creatures -->
+  <PawnsTabShort>Kreaturen</PawnsTabShort>
+  
+  <!-- Form caravan -->
+  <!-- EN: Form caravan -->
+  <FormCaravan>Formiere Karawane</FormCaravan>
+  <!-- EN: Number available to send with the caravan. -->
+  <FormCaravanColonyThingCountTip>Nutzbare Anzahl, für Karawane.</FormCaravanColonyThingCountTip>
+  <!-- EN: People and animals -->
+  <PawnsTab>Charaktere und Tiere</PawnsTab>
+  <!-- EN: Items -->
+  <ItemsTab>Objekte</ItemsTab>
+  <!-- EN: You must assign at least one non-downed colonist. -->
+  <CaravanMustHaveAtLeastOneColonist>Mindestens 1 selektierter, nicht-bewusstloser Kolonist notwendig.</CaravanMustHaveAtLeastOneColonist>
+  <!-- EN: The chosen exit location ({0}) is inaccessible. -->
+  <CaravanCouldNotFindExitSpot>Kommt an selektierten Durchgang bei ({0}) in Richtung Welt nicht ran.</CaravanCouldNotFindExitSpot>
+  <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
+  <CaravanCouldNotFindPackingSpot>Findet keinen gültigen Ort für Packen. Organisiere, dass selektierte Route für Durchgang von ({0}) in Richtung Welt, passierbar ist.</CaravanCouldNotFindPackingSpot>
+  <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
+  <CaravanCouldNotFindReachableExitSpot>Warnung: Einige selektierte Kolonisten können an den Ort in  ({0}) für Durchgang in die Welt nicht rankommen.</CaravanCouldNotFindReachableExitSpot>
+  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
+  <CaravanPawnIsUnreachable>Kein Kolonist kommt an {1_labelShort} ran.</CaravanPawnIsUnreachable>
+  <!-- EN: None of the assigned colonists are able to reach the {0}. -->
+  <CaravanItemIsUnreachableSingle>Keiner der selektierten Kolonisten kommt an {0} ran.</CaravanItemIsUnreachableSingle>
+  <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
+  <CaravanItemIsUnreachableMulti>Keiner der selektierten Kolonisten kann {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <!-- EN: The caravan can't carry that much. -->
+  <TooBigCaravanMassUsage>So viel kann die Karawane nicht transportieren.</TooBigCaravanMassUsage>
+  <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
+  <CaravanMassUsageTooltip>Transport-, und Rüstungobjekte. Karawane ist schneller, wenn weniger wie Maximum transportiert wird.</CaravanMassUsageTooltip>
+  <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
+  <CaravanVisibilityTip>Sichtbarkeit gibt an, wie gut sichtbar die Karawane ist.\n\nSie multipliziert die Wahrscheinlichkeit, dass Gegner Deiner Karawane auflauern werden.\n\nSichtbarkeit beeinflusst nicht Deine Fähigkeit, Sachen zu finden, die Du brauchst.\n\nSichtbarkeit basiert auf der Gesamtgröße aller Charaktere und Tiere der Karawane.</CaravanVisibilityTip>
+  <!-- EN: Days of food -->
+  <DaysWorthOfFood>Tagesrationen an Nahrung</DaysWorthOfFood>
+  <!-- EN: rot in {0} -->
+  <DaysWorthOfFoodInfoRot>verdirbt in {0}</DaysWorthOfFoodInfoRot>
+  <!-- EN: Unlimited -->
+  <InfiniteDaysWorthOfFoodInfo>Unbegrenzt</InfiniteDaysWorthOfFoodInfo>
+  <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
+  <DaysWorthOfFoodTooltip>Eine geschätzte Anzahl an Tagen, bevor mindestens einem Tier oder einer Person die Nahrung ausgeht.\n\nUnterschiedliche Arten haben eine unterschiedliche Diät, weswegen es vorkommen kann, dass einer Art die Nahrung früher ausgeht. Dieser Wert wird genauer berechnet, wenn eine Route gewählt wurde.</DaysWorthOfFoodTooltip>
+  <!-- EN: (only the first waypoint is taken into account) -->
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(Es wird nur der erste Wegpunkt berücksichtigt)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
+  <DaysWorthOfFoodWarningDialog>Deine Karawane hat nur Essen für {0} Tage und wird schnell hungrig werden.</DaysWorthOfFoodWarningDialog>
+  <!-- EN: Your caravan has no food and will become hungry very quickly. -->
+  <DaysWorthOfFoodWarningDialog_NoFood>Deine Karawane hat kein Essen und wird sehr schnell hungrig werden.</DaysWorthOfFoodWarningDialog_NoFood>
+  <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
+  <ForagedFoodPerDayTip>Die durchschnittliche Menge an Nahrung pro Tag, die von Deinen Leuten gesammelt wird. Dieser Wert verändert sich, wenn Du über eine andere Landschaft mit unterschiedlichen Nahrungsmöglichkeiten gehst.</ForagedFoodPerDayTip>
+  <!-- EN: Forage per day -->
+  <ForagedFoodPerDay>Gesammelte Nahrung pro Tag</ForagedFoodPerDay>
+  <!-- EN: A large part of the caravan's food will rot soon. -->
+  <CaravanFoodWillRotSoonWarningDialog>Ein großer Teil des zugewiesenen Essens der Karawane verdirbt bald.</CaravanFoodWillRotSoonWarningDialog>
+  <!-- EN: You have no caravan members capable of diplomacy or trading. -->
+  <CaravanIncapableOfSocial>Du hast niemanden in der Karawane, der diplomatische Gespräche führen bzw. handeln kann.</CaravanIncapableOfSocial>
+  <!-- EN: Are you sure you want to form this caravan? -->
+  <CaravanAreYouSure>Bist Du Dir im Klaren, dass diese Karawane formieren werden darf?</CaravanAreYouSure>
+  <!-- EN: You must choose a route for the caravan first. -->
+  <MessageMustChooseRouteFirst>Du musst für die Karawane zuerst eine Richtung zum Verlassen auswählen.</MessageMustChooseRouteFirst>
+  <!-- EN: Your caravan is unable to leave the area. Make sure that at least one side is reachable. -->
+  <MessageNoValidExitTile>Karawane kann nicht in andere Gebiete. Für Möglichmachung ist es notwendig, min. einen Durchgang am Kartenrand machen.</MessageNoValidExitTile>
+  <!-- EN: Weight of this item. -->
+  <ItemWeightTip>Gewicht von diesem Objekt.</ItemWeightTip>
+  <!-- EN: Market value -->
+  <MarketValueTip>Marktwert</MarketValueTip>
+  <!-- EN: The number of days until this item starts to rot based on the average temperature in this area. -->
+  <DaysUntilRotTip>Die Anzahl Tage, bis dieses Objekt beginnt verrotten. Grundlage ist  Durchschnitt Temperatur von diesem Gebiet.</DaysUntilRotTip>
+  <!-- EN: How much nutrition this food provides.\n\nFor reference: adult person needs {0} nutrition per day. -->
+  <ItemNutritionTip>Welchen Nährwert diese Nahrung hat.\n\nZur Referenz: Eine erwachsene Person benötigt einen Nährwert von {0} pro Tag.</ItemNutritionTip>
+  <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
+  <AnimalCanGrazeTip>Dieses Tier kann unterwegs auf Wiesen grasen anstatt mitgeführtes Essen zu benötigen. Allerdings ist Grasen nur in einigen Biomen und Termperaturbereichen möglich.</AnimalCanGrazeTip>
+  <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
+  <NutritionForagedPerDayTip>Gefundene Nahrung pro Tag. Der tatsächlich gesammelte Nährwert ist unter anderem von den Nahrungsmöglichkeiten der Landschaft abhängig.\n\n{0}</NutritionForagedPerDayTip>
+  <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition.\n\nCan eat: {2}\n\nLegend:\n{1}. -->
+  <NutritionEatenPerDayTip>Benutzte Nahrung je Tag. Für Referenz: Simple Speisen haben folgenden Nährwert {0}.\n\nKann essen: {2}\n\nLegende:\n{1}.</NutritionEatenPerDayTip>
+  <!-- EN: Mass carried -->
+  <MassCarriedSimple>Transportierte Masse</MassCarriedSimple>
+  <!-- EN: Mass capacity -->
+  <MassCapacity>Maximales Gewicht</MassCapacity>
+  <!-- EN: Mass -->
+  <Mass>Gewicht</Mass>
+  <!-- EN: Caravan mass -->
+  <CaravanMass>Gewicht der Karawane</CaravanMass>
+  <!-- EN: Equipment and apparel mass -->
+  <EquipmentAndApparelMass>Gewicht Kleidung / Ausrüstung</EquipmentAndApparelMass>
+  <!-- EN: Inventory mass -->
+  <InventoryMass>Gewicht Inventar</InventoryMass>
+  <!-- EN: Your colonists will now gather the items and leave the area. -->
+  <CaravanFormationProcessStarted>Kolonisten werden augenblicklich selektierte Objekte sammeln und in die Welt gehen.</CaravanFormationProcessStarted>
+  <!-- EN: Reform caravan -->
+  <ReformCaravan>Karawane neu bilden</ReformCaravan>
+  <!-- EN: Colonists -->
+  <ColonistsSection>Kolonisten</ColonistsSection>
+  <!-- EN: Prisoners -->
+  <PrisonersSection>Gefangene</PrisonersSection>
+  <!-- EN: Capture -->
+  <CaptureSection>Gefangen</CaptureSection>
+  <!-- EN: Animals -->
+  <AnimalsSection>Tiere</AnimalsSection>
+  <!-- EN: Choose route -->
+  <ChooseRouteButton>Wähle Route</ChooseRouteButton>
+  <!-- EN: Abandon -->
+  <AbandonButton>Aufgeben</AbandonButton>
+  <!-- EN: Movement speed -->
+  <CaravanMovementSpeed>Bewegungsgeschwindigkeit</CaravanMovementSpeed>
+  <!-- EN: tiles/day -->
+  <TilesPerDay>Felder/Tag</TilesPerDay>
+  <!-- EN: Movement speed depends on the average speed of all people and animals, carried mass, and terrain movement difficulty. -->
+  <CaravanMovementSpeedTip>Die Bewegungsgeschwindigkeit ist abhängig von der durchschnittlichen Geschwindigkeit aller Charaktere und Tiere, dem transportierten Gewicht und der Unwegsamkeit des Geländes.</CaravanMovementSpeedTip>
+  <!-- EN: Animals will be able to graze -->
+  <AnimalsWillBeAbleToGraze>Tiere werden grasen können</AnimalsWillBeAbleToGraze>
+  <!-- EN: Animals can graze -->
+  <AnimalsCanGraze>Tiere können grasen</AnimalsCanGraze>
+  <!-- EN: (for {0} more days) -->
+  <PossibleToGrazeFor>(für {0} weitere Tage)</PossibleToGrazeFor>
+  <!-- EN: (forever) -->
+  <PossibleToGrazeForever>(Für immer)</PossibleToGrazeForever>
+  <!-- EN: ({0}) -->
+  <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
+  <!-- EN: (too cold for {0} more days) -->
+  <CantGrazeBecauseOfTemp>(zu kalt für {0} weitere Tage)</CantGrazeBecauseOfTemp>
+  <!-- EN: Total nutrition -->
+  <TotalNutrition>Gesamter Nährwert</TotalNutrition>
+  <!-- EN: Not moving -->
+  <CaravanNotMoving>Rastet</CaravanNotMoving>
+  <!-- EN: Foraged nutrition per day -->
+  <ForagedNutritionPerDay>Nährwert gesammelt pro Tag</ForagedNutritionPerDay>
+  <!-- EN: Faction type -->
+  <FactionType>Faktions-Typ</FactionType>
+  <!-- EN: Total body size -->
+  <TotalBodySize>Gesamte Körpergröße</TotalBodySize>
+
+  <!-- Split caravan -->
+  <!-- EN: Split caravan -->
+  <SplitCaravan>Karawane teilen</SplitCaravan>
+  <!-- EN: You must leave at least one non-downed colonist. -->
+  <SourceCaravanMustHaveAtLeastOneColonist>Du musst mindestens einen nicht-bewusstlosen Kolonisten zurücklassen.</SourceCaravanMustHaveAtLeastOneColonist>
+  <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
+  <SplitCaravanThingCountTip>Anzahl Objekte, die Karawane an neue Karawane geben kann.</SplitCaravanThingCountTip>
+  
+  <!-- Load transporters -->
+  <!-- EN: Load {0} -->
+  <LoadTransporters>Beladung {0}</LoadTransporters>
+  <!-- EN: The assigned people and items are too heavy for the transport pods. -->
+  <TooBigTransportersMassUsage>Selektierte Charaktere und Tiere sind schwerer, wie für Transportkapsel möglich.</TooBigTransportersMassUsage>
+  <!-- EN: You can't send empty transport pods. -->
+  <CantSendEmptyTransportPods>Du kannst keine leeren Transportkapseln senden.</CantSendEmptyTransportPods>
+  <!-- EN: {1_labelShort} can't reach the transport pods. -->
+  <PawnCantReachTransporters>{1_labelShort} kann die Transportkapseln nicht erreichen.</PawnCantReachTransporters>
+  <!-- EN: There is no path between the transport pods and the {0}. -->
+  <TransporterItemIsUnreachableSingle>Es existiert kein Weg zwischen {0} und den Transportkapseln.</TransporterItemIsUnreachableSingle>
+  <!-- EN: There is no path between the transport pods and {0}x {1}. -->
+  <TransporterItemIsUnreachableMulti>Es existiert kein Weg zwischen {0}x {1} und den Transportkapseln.</TransporterItemIsUnreachableMulti>
+  
+  <!-- Comms -->
+  <!-- EN: Social skill: {0} -->
+  <SocialSkillIs>Soziale Fähigkeit: {0}</SocialSkillIs>
+  
+  <!--Research-->
+  <!-- EN: Research finished: {0} -->
+  <ResearchFinished>Forschung beendet: {0}</ResearchFinished>
+  <!-- EN: Research Screen -->
+  <ResearchScreen>Forschungmenü</ResearchScreen>
+  
+  <!--HistoryUpload-->
+  <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
+  <HistoryUploadMessage>Möchtest Du die Informationen Deines Spielverlaufs auf den RimWorld-Server hochladen, damit die Entwickler das Spiel verbessern können? Wenn Du dem zustimmst, werden die Daten Deines Spiels alle {0} Tage (bzw. zu seltenen Ereignissen, wie z.B. dem Ende des Spiels) hochgeladen. Die Einstellungen können in den Optionen noch geändert werden.</HistoryUploadMessage>
+  <!-- EN: Even though history is sent anonymously, you can attach your name. -->
+  <HistoryUploadMessagePlayerName>Die Spieldaten werden anonym versendet, aber Du kannst auch Deinen Namen hinzufügen.</HistoryUploadMessagePlayerName>
+  <!-- EN: Allow uploading gameplay data -->
+  <HistoryUploadYes>Die Spieldaten immer hochladen</HistoryUploadYes>
+  <!-- EN: Do not allow uploading gameplay data -->
+  <HistoryUploadNo>Die Spieldaten nie hochladen</HistoryUploadNo>
+  <!-- EN: Upload only this time -->
+  <HistoryUploadYesOnce>Nur diesmal hochladen</HistoryUploadYesOnce>
+  <!-- EN: Do not upload this time, ask me later -->
+  <HistoryUploadNoOnce>Dieses Mal nicht, aber frag mich später noch einmal.</HistoryUploadNoOnce>
+  
+  <!-- Outfit management -->
+  <!-- EN: Outfit -->
+  <Outfit>Outfit</Outfit>
+  <!-- EN: Select outfit... -->
+  <SelectOutfit>Outfit auswählen...</SelectOutfit>
+  <!-- EN: New outfit -->
+  <NewOutfit>Neues Outfit</NewOutfit>
+  <!-- EN: Delete outfit... -->
+  <DeleteOutfit>Outfit löschen...</DeleteOutfit>
+  <!-- EN: Outfit is in use by {0}. -->
+  <OutfitInUse>Outfit wird von {0} benutzt.</OutfitInUse>
+  <!-- EN: No outfit selected -->
+  <NoOutfitSelected>Kein Outfit ausgewählt</NoOutfitSelected>
+  
+  <!-- Drug policy management -->
+  <!-- EN: Drug policy -->
+  <DrugPolicy>Drogen Richtlinien</DrugPolicy>
+  <!-- EN: Select policy... -->
+  <SelectDrugPolicy>Wähle Richtlinie...</SelectDrugPolicy>
+  <!-- EN: New policy -->
+  <NewDrugPolicy>Neue Richtlinie</NewDrugPolicy>
+  <!-- EN: Delete policy... -->
+  <DeleteDrugPolicy>Lösche Richtlinie...</DeleteDrugPolicy>
+  <!-- EN: Drugs policy is in use by {0}. -->
+  <DrugPolicyInUse>Drogenrichtlinie wird von {0} verwendet.</DrugPolicyInUse>
+  <!-- EN: Food restriction is in use by {0}. -->
+  <FoodRestrictionInUse>Lebensmittelrestriktion wird von {0} verwendet.</FoodRestrictionInUse>
+  <!-- EN: Social drugs -->
+  <SocialDrugs>Soziale Drogen</SocialDrugs>
+  <!-- EN: No drugs -->
+  <NoDrugs>Keine Drogen</NoDrugs>
+  <!-- EN: One drink per day -->
+  <OneDrinkPerDay>Ein Drink je Tag</OneDrinkPerDay>
+  <!-- EN: Unrestricted -->
+  <Unrestricted>Uneingeschränkt</Unrestricted>
+  <!-- EN: No drug policy selected -->
+  <NoDrugPolicySelected>Keine Drogenrichtlinie ausgewählt</NoDrugPolicySelected>
+  <!-- EN: Add drug... -->
+  <AddDrug>Droge Hinzufügen...</AddDrug>
+  <!-- EN: Drug -->
+  <DrugColumnLabel>Droge</DrugColumnLabel>
+  <!-- EN: Usage -->
+  <DrugUsageColumnLabel>Verwendung</DrugUsageColumnLabel>
+  <!-- EN: Frequency -->
+  <FrequencyColumnLabel>Häufigkeit</FrequencyColumnLabel>
+  <!-- EN: Only if mood below -->
+  <MoodThresholdColumnLabel>Nur wenn Stimmung kleiner</MoodThresholdColumnLabel>
+  <!-- EN: Only if recreation below -->
+  <JoyThresholdColumnLabel>Nur wenn Entspannung kleiner</JoyThresholdColumnLabel>
+  <!-- EN: Take to inventory -->
+  <TakeToInventoryColumnLabel>Ins Inventar nehmen</TakeToInventoryColumnLabel>
+  <!-- EN: (no drugs) -->
+  <NoDrugsBrackets>(keine Drogen)</NoDrugsBrackets>
+  <!-- EN: Every day -->
+  <EveryDay>Jeden Tag</EveryDay>
+  <!-- EN: {0} times per day -->
+  <TimesPerDay>{0} mal pro Tag</TimesPerDay>
+  <!-- EN: Every {0} days -->
+  <EveryDays>Alle {0} Tage</EveryDays>
+  <!-- EN: Any -->
+  <NoDrugUseRequirement>Alle</NoDrugUseRequirement>
+  <!-- EN: Delete this drug. -->
+  <DeleteDrugTooltip>Diese Droge löschen.</DeleteDrugTooltip>
+  <!-- EN: The name of a drug. -->
+  <DrugNameColumnDesc>Der Name einer Droge.</DrugNameColumnDesc>
+  <!-- EN: How the drug is allowed to be used. -->
+  <DrugUsageColumnDesc>Wie die Droge verwendet werden darf.</DrugUsageColumnDesc>
+  <!-- EN: How often the colonists should try to take this drug. -->
+  <FrequencyColumnDesc>Wie oft ein Kolonist versuchen soll diese Droge einzunehmen.</FrequencyColumnDesc>
+  <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
+  <MoodThresholdColumnDesc>Der Kolonist wird diese Droge nur nehmen, wenn seine Stimmung unter diesem Schwellenwert liegt.</MoodThresholdColumnDesc>
+  <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
+  <JoyThresholdColumnDesc>Der Kolonist wird diese Droge nur nehmen, wenn seine Entspannung unter diesem Schwellenwert liegt.</JoyThresholdColumnDesc>
+  <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
+  <TakeToInventoryColumnDesc>Eine zusätzliche Menge an Drogen, die aufgenommen wird, um zu verhindern, dass man jedes Mal wieder zum Drogen-Lager laufen muss.</TakeToInventoryColumnDesc>
+  <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
+  <DrugUsageTipForAddiction>Für Abhängigkeiten\n\nBenutze diese Droge, um den schon vorhandenen Sucht-Bedarf zu decken.\n\nAber beachte, dass manche Charaktere mit bestimmten Eigenschaften, oder bei einem Nervenzusammenbruch dieses Verbot evtl. ignorieren.</DrugUsageTipForAddiction>
+  <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
+  <DrugUsageTipForJoy>Zur Entspannung\n\nDroge kann zum Entspannen oder aus sozialen Gründen eingenommen werden.\n\nAber beachte, dass manche Charaktere mit bestimmten Eigenschaften, oder bei einem Nervenzusammenbruch dieses Verbot evtl. ignorieren.</DrugUsageTipForJoy>
+  <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
+  <DrugUsageTipScheduled>Geplant\n\nDroge wird nach einem bestimmten Plan eingenommen.\n\nErlaubt es ebenfalls Drogen für die Befriedigung von Spaß, sozialen Bedarf oder einer Sucht einzunehmen.</DrugUsageTipScheduled>
+
+  <!-- Food restriction management -->
+  <!-- EN: Food restriction -->
+  <FoodRestriction>Erlaube Nahrung</FoodRestriction>
+  <!-- EN: Lavish -->
+  <FoodRestrictionLavish>Üppig</FoodRestrictionLavish>
+  <!-- EN: Fine -->
+  <FoodRestrictionFine>Lecker</FoodRestrictionFine>
+  <!-- EN: Simple -->
+  <FoodRestrictionSimple>Einfach</FoodRestrictionSimple>
+  <!-- EN: Paste -->
+  <FoodRestrictionPaste>Paste</FoodRestrictionPaste>
+  <!-- EN: Raw -->
+  <FoodRestrictionRaw>Roh</FoodRestrictionRaw>
+  <!-- EN: Nothing -->
+  <FoodRestrictionNothing>Nichts</FoodRestrictionNothing>
+  <!-- EN: Select food restriction -->
+  <SelectFoodRestriction>Restriktion wählen...</SelectFoodRestriction>
+  <!-- EN: New food restriction -->
+  <NewFoodRestriction>Neue Restriktion</NewFoodRestriction>
+  <!-- EN: Delete food restriction -->
+  <DeleteFoodRestriction>Restriktion löschen...</DeleteFoodRestriction>
+  <!-- EN: No food restriction selected -->
+  <NoFoodRestrictionSelected>Keine Lebensmittelrestriktion ausgewählt</NoFoodRestrictionSelected>
+
+  <!-- Medical settings -->
+  <!-- EN: Defaults -->
+  <MedGroupDefaults>Standard</MedGroupDefaults>
+  <!-- EN: Colonist -->
+  <MedGroupColonist>Kolonist</MedGroupColonist>
+  <!-- EN: Imprisoned colonist -->
+  <MedGroupImprisonedColonist>Gefangener Kolonist</MedGroupImprisonedColonist>
+  <!-- EN: Colony animal -->
+  <MedGroupColonyAnimal>Tier der Kolonie</MedGroupColonyAnimal>
+  <!-- EN: Neutral animal -->
+  <MedGroupNeutralAnimal>Neutrales Tier</MedGroupNeutralAnimal>
+  <!-- EN: Neutral faction -->
+  <MedGroupNeutralFaction>Neutrale Fraktion</MedGroupNeutralFaction>
+  <!-- EN: Hostile faction -->
+  <MedGroupHostileFaction>Feindliche Fraktion</MedGroupHostileFaction>
+  
+  <!-- Growing -->
+  <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
+  <NoGrowerCanPlant>{0} benötigt zum Anpflanzen eine Fähigkeit von {1} als Gärtner.\n\nKeiner Deiner nicht-bewusstlosen Gärtner hat diese Fähigkeiten, weswegen diese Pflanze nicht angebaut wird.</NoGrowerCanPlant>
+
+  <!-- Abandon home -->
+  <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
+  <ConfirmAbandonHomeWithColonyPawns>Einige Deiner Kolonisten oder Tiere sind in diesem Gebiet. Bist Du sicher, dass Du es aufgeben willst?\n\nFolgende Charaktere und Tiere werden zurückgelassen:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
+  <ConfirmAbandonHomeNegativeThoughts>Das Aufgeben von {0} wird bei den folgenden Charaktere folgende Gedanken verursachen:</ConfirmAbandonHomeNegativeThoughts>
+  <!-- EN: Everyone: -->
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>Alle:</ConfirmAbandonHomeNegativeThoughts_Everyone>
+  
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
+  <ConfirmMoveAutoJoinableCaravan>Einige Tiere, Gefangene endscheiden sich fürs mitgehen bei Karawane. Wenn Du sie bewegst, ist das nicht weiter möglich.\n\nTiere, Gefangene und bewusstlose Kolonisten, die in einem Gebiet ohne weitere Kolonisten belassen werden, gelten als aufgegeben und können von Gegnern gefangen werden.\n\nBist Du dir klar, dass Du die Karawane senden willst?</ConfirmMoveAutoJoinableCaravan>
+  
+  <!-- Abandon pawn -->
+  <!-- EN: Do you really want to banish {1_label}? -->
+  <ConfirmBanishPawnDialog>Möchtest Du {1_label} wirklich bannen?</ConfirmBanishPawnDialog>
+  <!-- EN: {1_labelShort} will most likely die. -->
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} wird sehr wahrscheinlich sterben.</ConfirmBanishPawnDialog_LeftToDie>
+  <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
+  <ConfirmBanishPawnDialog_Items>{1_labelShort} wird folgende Objekte mitnehmen:</ConfirmBanishPawnDialog_Items>
+  <!-- EN: All colonists will get the following thoughts: -->
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>Alle Kolonisten werden diese Erinnerungen bekommen:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
+  <ConfirmBanishPawnDialog_IndividualThoughts>Das Verbannen von {1_labelShort} generiert bei den folgenden Charaktere die folgenden Gedanken:</ConfirmBanishPawnDialog_IndividualThoughts>
+
+  <!-- Send transport pods which are not completely loaded -->
+  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
+  <ConfirmSendNotCompletelyLoadedPods>Die Transportkapseln sind noch nicht fertig beladen. {1_labelShort} fehlt noch. Trotzdem starten?</ConfirmSendNotCompletelyLoadedPods>
+
+  <!-- Settle near a faction base -->
+  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
+  <ConfirmSettleNearFactionBase>Dieser Ort ist simple {0} Felder von einer weiteren Fraktion distanziert. Für die weitere Fraktionen ist das ein Übergriff auf ihr Land und die Beziehung wird sich alle {1} Tage schlechtern.\n\nAnsiedeln?</ConfirmSettleNearFactionBase>
+  
+  <!-- Cleanup translation files -->
+  <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
+  <ConfirmCleanupTranslationFiles>Bist Du sicher, dass Du alle Übersetzungen der Sprache {0} bereinigen willst?\n\nWas das folgende wird gemacht:\n  - Platzhalter für fehlende Übersetzungen werden eingesetzt\n  - Kommentare mit dem englischen Original-Text werden eingefügt\n  - Alle Übersetzungen werden in das richtige XML File verschoben\n  - Die XML Files werden automatisch formatiert\n  - Update von abwärtskompatiblen Def-Namen\n  - Entfernen aller vorhandenen XML Kommentare (Außnahme: in den Listen-Übersetzungen)\n\nNicht-XML-Files werden nicht verändert.\n\nDenk dran, dass Du das Spiel nach der Änderung von Sprachdateien und vor der Verwendung dieses Tools neu starten musst, damit die Änderungen erfasst werden.\n\nStelle sicher, dass Du die Übersetzungsdateien gesichert hast bevor Du dieses Werkzeug verwendest.</ConfirmCleanupTranslationFiles>
+  <!-- EN: Yes, I have a backup -->
+  <ConfirmCleanupTranslationFiles_Confirm>Ja, ich habe eine Sicherungskopie</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>Die Karawane wird sich nicht bewegen können, wenn Du die Kapseln auf ein leeres Feld schickst. Trotzdem fortfahren?</TransportersCaravanWillBeImmobile>
+
+</LanguageData>
